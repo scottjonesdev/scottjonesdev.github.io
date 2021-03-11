@@ -99,6 +99,7 @@ nav li a {
   	width: auto;
   	text-decoration: none;
   	font-size: 16px;
+  	color: black;
 }
 
 nav li {
@@ -206,25 +207,25 @@ header .current a{
 }
 
 @media only screen and (min-width: 480px){
-	nav ul {
-  	list-style-type: none;
-  	width: 350px;
-  	margin:  0;
-  	padding: 0;
-  	overflow: hidden;
-  	float: left;
-}
+		nav ul {
+	  	list-style-type: none;
+	  	width: 350px;
+	  	margin:  0;
+	  	padding: 0;
+	  	overflow: hidden;
+	  	float: left;
+	}
 
-nav li a {
-    display: block;
-    padding-right: 13px;
-    margin: none;
-    margin-top: 3px;
-  	padding-bottom: 5px;
-  	width: auto;
-  	text-decoration: none;
-  	font-size: 18px;
-}
+	nav li a {
+	    display: block;
+	    padding-right: 13px;
+	    margin: none;
+	    margin-top: 3px;
+	  	padding-bottom: 5px;
+	  	width: auto;
+	  	text-decoration: none;
+	  	font-size: 18px;
+	}
 }
 
 
