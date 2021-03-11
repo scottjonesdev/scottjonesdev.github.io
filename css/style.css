@@ -83,7 +83,7 @@ a:hover {
 }
 nav ul {
   	list-style-type: none;
-  	width: 350px;
+  	width: 300px;
   	margin:  0;
   	padding: 0;
   	overflow: hidden;
@@ -203,6 +203,28 @@ header .current a{
 
 .gray-mode #logo {
 	color: inherit;
+}
+
+@media only screen and (min-width: 480px){
+	nav ul {
+  	list-style-type: none;
+  	width: 350px;
+  	margin:  0;
+  	padding: 0;
+  	overflow: hidden;
+  	float: left;
+}
+
+nav li a {
+    display: block;
+    padding-right: 13px;
+    margin: none;
+    margin-top: 3px;
+  	padding-bottom: 5px;
+  	width: auto;
+  	text-decoration: none;
+  	font-size: 18px;
+}
 }
 
 
