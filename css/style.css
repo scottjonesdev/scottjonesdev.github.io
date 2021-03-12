@@ -2,11 +2,8 @@
 	#logo{
 		display: none;
 	}
-  label{
-    display: none;
-  }
-  input{
-    display: none;
+  #switch {
+  display: none;
   }
 }
 /*setup button to toggle grey/colour mode*/
