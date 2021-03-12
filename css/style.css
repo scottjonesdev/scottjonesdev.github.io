@@ -34,6 +34,10 @@ label:after {
   left: 4px;
   transition: ease-in-out 200ms;
 }
+
+label {
+  display: none;
+}
  
 input:checked + label {
   background: #4d5d9f;
@@ -96,13 +100,13 @@ nav ul {
 
 nav li a {
     display: block;
-    padding-right: 10px;
+    padding-right: 8px;
     margin: none;
     margin-top: 3px;
   	padding-bottom: 5px;
   	width: auto;
   	text-decoration: none;
-  	font-size: 14px;
+  	font-size: 16px;
 }
 
 nav li {
@@ -138,7 +142,7 @@ header .current a{
 }
 
 #brand2 {
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 40px;
 }
 
@@ -209,6 +213,12 @@ header .current a{
 	color: inherit;
 }
 
+@media only screen and (min-width: 400px){
+   label {
+    display: block;
+  } 
+}
+
 @media only screen and (min-width: 480px){
 		nav ul {
 	  	list-style-type: none;
@@ -235,6 +245,7 @@ header .current a{
 @media only screen and (min-width: 768px) {
 
 	* {box-sizing:border-box}
+
 
   body {
     padding: 40px;
@@ -263,6 +274,7 @@ header .current a{
   display: block;
   float: right;
   }
+
 }
 
 /*Large devices (laptops/desktops, 992px and up) */
@@ -272,6 +284,10 @@ header .current a{
   padding-right: 10px;
   padding-bottom: 20px;
 	}
+
+  #brand2 {
+  font-size: 40px;
+  }
 
 } 
 
