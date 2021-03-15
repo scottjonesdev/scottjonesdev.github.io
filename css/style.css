@@ -99,7 +99,7 @@ nav ul {
 }
 
 nav li a {
-    display: block;
+    display: inline;
     padding-right: 8px;
     margin: none;
     margin-top: 3px;
@@ -154,11 +154,38 @@ header .current a{
 	padding: 0px !important;
 }
 
-#headshot {
+#headshot{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+#opacity{
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#magnet {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+#blog1 {
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 2px solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 #contact {
   display: none;
