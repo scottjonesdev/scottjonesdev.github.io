@@ -164,7 +164,7 @@ header .current a{
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  display: inline;
+  
   padding-right: 20px;
   padding-bottom: 20px;
 }
@@ -178,9 +178,10 @@ header .current a{
 }
 
 #blog1 {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: 2px solid;
+  border-radius: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
   margin-bottom: 20px;
@@ -241,6 +242,12 @@ header .current a{
 }
 
 @media only screen and (min-width: 480px){
+
+  #blog1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
 	nav ul {
   	list-style-type: none;
   	width: 350px;
@@ -285,6 +292,11 @@ nav li a {
       font-size: 20px;
   }
 
+  #blog1 {
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+
   #contact2 {
     display: none;
   }
@@ -312,6 +324,11 @@ nav li a {
 
   #brand2 {
   font-size: 40px;
+  }
+
+  #blog1 {
+  padding-left: 60px;
+  padding-right: 60px;
   }
 
 } 
