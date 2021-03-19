@@ -13,4 +13,3 @@ let trans = () => {
         document.documentElement.classList.remove('transition');
     }, 1000)
 }
-

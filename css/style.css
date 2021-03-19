@@ -177,7 +177,7 @@ header .current a{
   padding-bottom: 20px;
 }
 
-#blog1 {
+#blog1, #projects {
   padding-left: 10px;
   padding-right: 10px;
   border: 2px solid;
@@ -187,6 +187,9 @@ header .current a{
   margin-bottom: 20px;
 }
 
+#project1 {
+  display: inline;
+}
 
 #contact {
   display: none;
@@ -204,6 +207,11 @@ header .current a{
   margin-bottom: 20px;
 }
 
+#flip {
+  width: 720px;
+  height: 480px;
+}
+
 #contact:hover {
   background-color: rgba(55, 55, 55, 0.5);
 }
@@ -211,6 +219,7 @@ header .current a{
 #contact2:hover {
   background-color: rgba(55, 55, 55, 0.5);
 }
+
 .gray-mode {
 	background-image: none;
 	background-color: #DEDEDE;
@@ -243,7 +252,7 @@ header .current a{
 
 @media only screen and (min-width: 480px){
 
-  #blog1 {
+  #blog1, #projects {
   padding-left: 20px;
   padding-right: 20px;
   }
@@ -292,7 +301,7 @@ nav li a {
       font-size: 20px;
   }
 
-  #blog1 {
+  #blog1, #projects {
   padding-left: 40px;
   padding-right: 40px;
   }
@@ -326,7 +335,7 @@ nav li a {
   font-size: 40px;
   }
 
-  #blog1 {
+  #blog1, #projects {
   padding-left: 60px;
   padding-right: 60px;
   }
