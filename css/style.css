@@ -52,8 +52,8 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: ease-in-out 200ms !important;
-  transition-delay: 0 !important;
+  transition: ease-in-out 600ms !important;
+  transition-delay: 100ms !important;
 }
 
 #switch {
@@ -125,7 +125,6 @@ nav li {
 	margin-top: 40px;
   margin-bottom: 80px;
 	border-top: 2px solid;
-  border-bottom: 2px solid;
 }
 
 #home {
@@ -158,6 +157,7 @@ header .current a{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 #opacity{
@@ -207,11 +207,6 @@ header .current a{
   margin-bottom: 20px;
 }
 
-#flip {
-  width: 720px;
-  height: 480px;
-}
-
 #contact:hover {
   background-color: rgba(55, 55, 55, 0.5);
 }
@@ -243,10 +238,6 @@ header .current a{
 }
 
 .gray-mode h4 {
-	color: inherit;
-}
-
-.gray-mode #logo {
 	color: inherit;
 }
 
