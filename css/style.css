@@ -52,8 +52,8 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: ease-in-out 600ms !important;
-  transition-delay: 100ms !important;
+  transition: ease-in-out 700ms !important;
+  transition-delay: 400ms !important;
 }
 
 #switch {
@@ -217,8 +217,8 @@ header .current a{
 
 .gray-mode {
 	background-image: none;
+  color: #1B1B1B;
 	background-color: #DEDEDE;
-	color: #1B1B1B;
 }
 
 .gray-mode a {
