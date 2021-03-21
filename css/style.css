@@ -192,6 +192,24 @@ header .current a{
   margin-bottom: 20px;
 }
 
+#projectsnav {
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#projectnav2 {
+word-spacing: 4px;
+text-align: center;
+
+}
+
+
 #pippin{
   display: block;
   max-width: 100%;
@@ -276,12 +294,6 @@ header .current a{
 
 }
 
-#projectnav {
-word-spacing: 4px;
-padding-bottom: 10px;
-text-align: left;
-
-}
 
 
 
@@ -386,6 +398,11 @@ nav li a {
 
   #mixer, #dystopia  {
     max-width: 50%;
+  }
+
+  #projectnav {
+  word-spacing: 40px;
+
   }
 }
 
