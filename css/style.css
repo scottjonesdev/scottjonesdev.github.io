@@ -187,8 +187,26 @@ header .current a{
   margin-bottom: 20px;
 }
 
-#project1 {
-  display: inline;
+#pippin{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headshot {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#mixer, #dystopia {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact {
@@ -214,6 +232,35 @@ header .current a{
 #contact2:hover {
   background-color: rgba(55, 55, 55, 0.5);
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
+
+#xd{
+  height: 200px;
+}
+
+#projectnav{
+word-spacing: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+
 
 .gray-mode {
 	background-image: none;
@@ -271,6 +318,11 @@ nav li a {
   label {
     display: block;
   } 
+
+  #xd{
+  height: 300px;
+  }
+
 }
 
 
@@ -312,6 +364,17 @@ nav li a {
   float: right;
   }
 
+  #xd{
+  height: 480px;
+  }
+
+  #mixer, #dystopia  {
+    max-width: 50%;
+  }
+
+  #projectnav {
+    text-align: right;
+  }
 }
 
 /*Large devices (laptops/desktops, 992px and up) */
@@ -329,6 +392,10 @@ nav li a {
   #blog1, #projects {
   padding-left: 60px;
   padding-right: 60px;
+  }
+
+  #mixer, #dystopia  {
+  max-width: 60%;
   }
 
 } 
