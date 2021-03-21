@@ -195,13 +195,31 @@ header .current a{
 }
 
 
-#mixer, #dystopia, #cottage {
+#mixer, #dystopia {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.cottageimages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* Create three equal columns that sits next to each other */
+  #cottage {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+
+#cottage img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
 #contact {
   display: none;
 }
@@ -324,7 +342,8 @@ nav li a {
 
 @media only screen and (min-width: 768px) {
 
-	* {box-sizing:border-box}
+	* {box-sizing:border-box;
+  }
 
 
   body {
@@ -363,10 +382,6 @@ nav li a {
   #mixer, #dystopia  {
     max-width: 50%;
   }
-
-  #projectnav {
-    text-align: right;
-  }
 }
 
 /*Large devices (laptops/desktops, 992px and up) */
@@ -393,8 +408,23 @@ nav li a {
 } 
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
 
+  .cottageimages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
 
+/* Create three equal columns that sits next to each other */
+  #cottage {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
 
+#cottage img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
 }
