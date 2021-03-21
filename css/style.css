@@ -194,15 +194,8 @@ header .current a{
   margin-right: auto;
 }
 
-#headshot {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 
-}
-
-#mixer, #dystopia {
+#mixer, #dystopia, #cottage {
   display: block;
   max-width: 100%;
   margin-left: auto;
@@ -238,7 +231,7 @@ header .current a{
   flex-wrap: wrap;
 }
 
-/* Create two equal columns that sits next to each other */
+/* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -249,6 +242,8 @@ header .current a{
   max-width: 94%;
   margin: 4px;
 }
+
+
 
 #xd{
   display: block;
@@ -262,6 +257,7 @@ header .current a{
 word-spacing: 4px;
 padding-bottom: 10px;
 text-align: left;
+
 }
 
 
