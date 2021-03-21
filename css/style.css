@@ -85,6 +85,7 @@ h1, h2, h3, h4{
 	padding-right: 5px;
 }
 
+
 a {
 	color: #D4D4D4;
 	font-weight: bold;
@@ -103,7 +104,8 @@ nav ul {
   	float: left;
 }
 
-nav li a {
+nav li a, #logo2 {
+    vertical-align: center;
     display: inline;
     padding-right: 8px;
     margin: none;
@@ -323,6 +325,10 @@ text-align: center;
 }
 
 @media only screen and (min-width: 480px){
+
+  #logo2 {
+    display: none;
+  }
 
   #blog1, #projects {
   padding-left: 20px;
