@@ -251,13 +251,17 @@ header .current a{
 }
 
 #xd{
-  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
 }
 
-#projectnav{
-word-spacing: 5px;
+#projectnav {
+word-spacing: 4px;
 padding-bottom: 10px;
-text-align: center;
+text-align: left;
 }
 
 
@@ -319,10 +323,6 @@ nav li a {
     display: block;
   } 
 
-  #xd{
-  height: 300px;
-  }
-
 }
 
 
@@ -362,10 +362,6 @@ nav li a {
   padding: 20px;
   display: block;
   float: right;
-  }
-
-  #xd{
-  height: 480px;
   }
 
   #mixer, #dystopia  {
