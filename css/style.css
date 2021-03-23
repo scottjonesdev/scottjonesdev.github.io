@@ -90,6 +90,7 @@ a {
 	color: #D4D4D4;
 	font-weight: bold;
 	text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 a:hover {
@@ -246,6 +247,7 @@ text-align: center;
 }
 #contact {
   display: none;
+  transition-duration: 1s;
 }
 
 #contact2 {
@@ -258,6 +260,7 @@ text-align: center;
   display: block;
   float: left;
   margin-bottom: 20px;
+  transition-duration: 1s;
 }
 
 #contact:hover {
