@@ -105,6 +105,10 @@ p a:hover {
   color: #A3A3A3;
 }
 
+#hover:hover {
+  color: #A3A3A3;
+}
+
 #resume {
   transition-duration: 0.5s;
 }
