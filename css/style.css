@@ -96,6 +96,23 @@ a {
 a:hover {
 	color: #A3A3A3;
 }
+
+li a:hover {
+  color: #A3A3A3;
+}
+
+p a:hover {
+  color: #A3A3A3;
+}
+
+#resume {
+  transition-duration: 0.5s;
+}
+
+#resume:hover {
+  color: #A3A3A3;
+}
+
 nav ul {
   	list-style-type: none;
   	width: 300px;
@@ -264,11 +281,13 @@ text-align: center;
 }
 
 #contact:hover {
-  background-color: rgba(55, 55, 55, 0.5);
+  background-color: #CCCCCC;
+  color: #43379e;
 }
 
 #contact2:hover {
-  background-color: rgba(55, 55, 55, 0.5);
+  background-color: #CCCCCC;
+  color: #43379e;
 }
 
 .row {
