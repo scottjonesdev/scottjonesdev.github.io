@@ -27,7 +27,7 @@ label:after {
   border-radius: 50%;
   position: absolute;
   content: '';
-  background: #D4D4D4;
+  background: #CCCCCC;
   width: 20px;
   height: 20px;
   top: 5px;
@@ -85,9 +85,8 @@ h1, h2, h3, h4{
 	padding-right: 5px;
 }
 
-
 a {
-	color: #D4D4D4;
+	color: #CCCCCC;
 	font-weight: bold;
 	text-decoration: none;
   transition-duration: 0.5s;
