@@ -69,13 +69,13 @@ html{
 body{
   min-height: 100%;
 	background-image: linear-gradient(135deg, #43379e 7%, #4d5d9f 95%);
-	color: #BFBFBF;
+	color: #CCCCCC;
 	font-family: "helvetica", sans-serif;
 	padding: 5px;
 }
 
 h1, h2, h3, h4{
-	color: #CCCCCC;
+	color: #DFDFDF;
 }
 
 #logo {
@@ -86,7 +86,7 @@ h1, h2, h3, h4{
 }
 
 a {
-	color: #CCCCCC;
+	color: #DFDFDF;
 	font-weight: bold;
 	text-decoration: none;
   transition-duration: 0.5s;
@@ -287,12 +287,12 @@ text-align: center;
 }
 
 #contact:hover {
-  background-color: #CCCCCC;
+  background-color: #DFDFDF;
   color: #43379e;
 }
 
 #contact2:hover {
-  background-color: #CCCCCC;
+  background-color: #DFDFDF;
   color: #43379e;
 }
 
