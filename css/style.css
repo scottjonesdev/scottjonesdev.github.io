@@ -246,6 +246,7 @@ text-align: center;
 #mixer, #dystopia, #undersea {
   display: block;
   max-width: 100%;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -438,6 +439,7 @@ nav li a {
 
   #mixer, #dystopia, #undersea  {
     max-width: 50%;
+    max-height: 50%;
   }
 
   #projectnav {
@@ -470,6 +472,7 @@ nav li a {
 
   #mixer, #dystopia, #undersea  {
   max-width: 60%;
+  max-height: 60%;
   }
 
 } 
