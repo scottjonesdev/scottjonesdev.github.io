@@ -250,7 +250,7 @@ text-align: center;
   margin-right: auto;
 }
 
-.cottageimages {
+.cottageimages, .hoverbikeimages {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -258,7 +258,7 @@ text-align: center;
   }
 
 /* Create three equal columns that sits next to each other */
-  #cottage {
+  #cottage, #hoverbike {
     flex: 33.33%;
     max-width: 33.33%;
   }
