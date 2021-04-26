@@ -477,7 +477,7 @@ nav li a {
 
 @media only screen and (min-width: 1400px) {
 
-  .cottageimages {
+  .cottageimages, .hoverbikeimages {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -485,12 +485,12 @@ nav li a {
   }
 
 /* Create three equal columns that sits next to each other */
-  #cottage {
+  #cottage, #hoverbike {
     flex: 33.33%;
     max-width: 33.33%;
   }
 
-#cottage img {
+#cottage, #hoverbike img {
   vertical-align: middle;
   max-width: 94%;
   margin: 4px;
