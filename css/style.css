@@ -436,7 +436,7 @@ nav li a {
   float: right;
   }
 
-  #mixer, #dystopia  {
+  #mixer, #dystopia, #undersea  {
     max-width: 50%;
   }
 
@@ -490,8 +490,17 @@ nav li a {
     max-width: 33.33%;
   }
 
-#cottage, #hoverbike img {
-  vertical-align: middle;
-  max-width: 94%;
-  margin: 4px;
+  #cottage img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;
+  }
+
+  #hoverbike img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;
+  }
+
 }
+
