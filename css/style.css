@@ -443,9 +443,12 @@ nav li a {
   float: right;
   }
 
+  #undersea {
+    height: 480px;
+  }
+
   #mixer, #dystopia, #undersea  {
     max-width: 50%;
-    max-height: 50%;
   }
 
   #projectnav {
