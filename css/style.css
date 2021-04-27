@@ -251,7 +251,7 @@ text-align: center;
   margin-right: auto;
 }
 
-.cottageimages, .hoverbikeimages {
+.cottageimages, .hoverbikeimages, .sunglassesimages {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -259,10 +259,16 @@ text-align: center;
   }
 
 /* Create three equal columns that sits next to each other */
-  #cottage, #hoverbike {
+  #cottage, #hoverbike, #sunglasses {
     flex: 33.33%;
     max-width: 33.33%;
   }
+
+#sunglasses img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
 
 #cottage img {
   vertical-align: middle;
@@ -480,7 +486,7 @@ nav li a {
 
 @media only screen and (min-width: 1400px) {
 
-  .cottageimages, .hoverbikeimages {
+  .cottageimages, .hoverbikeimages, .sunglassesimages {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -488,7 +494,7 @@ nav li a {
   }
 
 /* Create three equal columns that sits next to each other */
-  #cottage, #hoverbike {
+  #cottage, #hoverbike, #sunglasses {
     flex: 33.33%;
     max-width: 33.33%;
   }
@@ -503,6 +509,12 @@ nav li a {
     vertical-align: middle;
     max-width: 94%;
     margin: 4px;
+  }
+
+  #sunglasses img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;   
   }
 
 }
