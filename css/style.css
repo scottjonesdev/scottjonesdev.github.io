@@ -4,10 +4,6 @@
 	}
 }
 
-#logo2, #logo {
-  border-radius: 0;
-}
-
 /*setup button to toggle grey/colour mode*/
 input[type=checkbox] {
   visibility: hidden;
@@ -90,6 +86,25 @@ h1, h2, h3, h4{
 	padding-right: 5px;
 }
 
+#logo2, #logo {
+  border-radius: 0;
+}
+
+#home-image {
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.image-hover {
+  transition-duration: 0.5s;
+}
+
+.image-hover:hover {
+  filter: brightness(50%);
+}
+
 a {
 	color: #DFDFDF;
 	font-weight: bold;
@@ -122,7 +137,10 @@ p a:hover {
 }
 
 #stripe {
-  max-width: 200px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  max-width: 150px;
   border-radius: 10px;
 }
 
@@ -479,6 +497,14 @@ nav li a {
   #resumeIndent {
   margin-left: 10px;
   }
+
+  #stripe {
+  display: block;
+  text-align: center;
+  margin: auto;
+  max-width: 250px;
+  border-radius: 10px;
+}
 
 }
 
