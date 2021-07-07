@@ -161,6 +161,7 @@ nav li {
 }
 #mail {
 	max-width: 18px;
+  border-radius: 0;
 }
 
 #foot {
