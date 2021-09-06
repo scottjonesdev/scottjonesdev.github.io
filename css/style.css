@@ -182,6 +182,12 @@ nav li {
   border-radius: 0;
 }
 
+#github {
+  max-width: 20px;
+  border-radius: 0;
+  margin-bottom: -4px;
+}
+
 #foot {
 	padding: 20px;
 	text-align: center;
@@ -243,7 +249,7 @@ header .current a{
   margin-bottom: 20px;
 }
 
-#blog1, #projects, #resumeSpacing {
+.blog1, #projects, #resumeSpacing {
   padding-left: 10px;
   padding-right: 10px;
   border: 2px solid;
@@ -410,7 +416,7 @@ padding-bottom: 20px;
     display: none;
   }
 
-  #blog1, #projects, #resumeSpacing  {
+  .blog1, #projects, #resumeSpacing  {
   padding-left: 20px;
   padding-right: 20px;
   }
@@ -461,7 +467,7 @@ nav li a {
       font-size: 20px;
   }
 
-  #blog1, #projects, #resumeSpacing {
+  .blog1, #projects, #resumeSpacing {
   padding-left: 40px;
   padding-right: 40px;
   }
@@ -520,7 +526,7 @@ nav li a {
   font-size: 40px;
   }
 
-  #blog1, #projects, #resumeSpacing {
+  .blog1, #projects, #resumeSpacing {
   padding-left: 60px;
   padding-right: 60px;
   }
