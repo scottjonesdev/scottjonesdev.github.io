@@ -40,16 +40,32 @@
 			<h1>Projects</h1>
 			<div id="projectsnav">
 				<div id="projectnav2">
-					<a href="#web" id="hover">Web</a>
-					<a href="#design" id="hover">Design</a>
-					<a href="#art" id="hover">Art</a>
-					<a href="#animation" id="hover">Animation</a>
-					<a href="#3d" id="hover">3D-Modelling</a>
+					<a href="#web" class="hover">Web</a>
+					<a href="#design" class="hover">Design</a>
+					<a href="#art" class="hover">Art</a>
+					<a href="#animation" class="hover">Animation</a>
+					<a href="#3d" class="hover">3D-Modelling</a>
 				</div>
 			</div>
 			<div id="projects">
 				<a id="web"></a>
 				<h3>Websites</h3>
+				<div class="web">
+					<a href="https://pantryofplants.ca" target="_blank" id="hover">Pantry of Plants | Recipe Blog [Generated Static Site]</a> 
+					<p>A recipe blog that I designed with some help from my friend <a href="https://nv.delivery/" target="_blank">Nick</a>. This is a generated static site, all the pages are written as Markdown Files, then converted to HTML with a Ruby script. This makes it possible to reuse page elements like headers and footers across all pages and also makes it quick to add new recipes to the website.</p>
+					<a href="https://pantryofplants.ca" target="_blank"><img src="photos/pantryofplants.png" class="image-hover" id="home-image" alt="image of pantry of plants recipe page"></a>
+					<p>Website features:</p>
+					<ul>
+						<li>Generated Static Site using Ruby and Kramdown</li>
+						<li>Orignal Recipes written by me</li>
+						<li>Recipe search functionality using Javascript</li>
+						<li>Orignal Photography</li>
+						<li>Designed in Figma, CSS written from scratch</li>
+					</ul>
+					<p>Check out the Git Repo <a href="https://github.com/scottjonesdev/pantry-of-plants" target="_blank">here</a>.
+					<br>
+				</div>
+				<br>
 				<div class="web">
 					<a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a> 
 					<p>A PHP based shopping cart web application I made as part of a group project in school.</p>
