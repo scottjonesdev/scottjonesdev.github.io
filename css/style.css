@@ -1,92 +1,238 @@
+/* CSS Variables -> Color Themes */
+.purple {
+  --background-image-default: linear-gradient(135deg, #43379e 7%, #4d5d9f 95%);
+  --theme-color: #43379e;
+  --text-primary: #DFDFDF;
+  --heading-1: #DFDFDF;
+  --heading-2: #DFDFDF;
+  --heading-3: #DFDFDF;
+  --heading-4: #DFDFDF;
+  --text-link: #f5f5f5;
+  --font: "helvetica", sans-serif;
+  --text-hover: #87cefa;
+  --swirl-color: #87cefa;
+}
+
+.monokai{
+  --background-image-default: linear-gradient(135deg, #272822 7%, #272822 95%);
+  --theme-color: #272822;
+  --text-primary: #d6d6d6;
+  --heading-1: #66D9EF;
+  --heading-2: #AE81FF;
+  --heading-3: #E6DB74;
+  --heading-4: #FD971F;
+  --text-link: #F92672;
+  --font: "helvetica", sans-serif;
+  --text-hover: #FD971F;
+  --swirl-color: #F92672;
+}
+
+.grayscale{
+  --background-image-default: linear-gradient(135deg, #DEDEDE 7%, #DEDEDE 95%);
+  --theme-color: #DEDEDE;
+  --text-primary: #1B1B1B;
+  --heading-1: #1B1B1B;
+  --heading-2: #1B1B1B;
+  --heading-3: #1B1B1B;
+  --heading-4: #1B1B1B;
+  --text-link: #1B1B1B;
+  --font: "helvetica", sans-serif;
+  --text-hover: #A3A3A3;
+  --swirl-color: #A3A3A3;
+}
+
+/* End of | CSS Variables -> Color Themes */
+
 @media only screen and (max-width: 480px){
-	#logo{
+	.logo{
 		display: none;
 	}
 }
 
-/*setup button to toggle grey/colour mode*/
-input[type=checkbox] {
-  visibility: hidden;
-  height: 0;
-  width: 0;
-}
-
-label {
-  margin: 0 auto;
-  display: flex;
-  float: right;
-  border-radius: 100px;
-  position: relative;
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 55px;
-  height: 30px;
-  background-color: #373737; 
-}
- 
-label:after {
-  border-radius: 50%;
-  position: absolute;
-  content: '';
-  background: #DFDFDF;
-  width: 20px;
-  height: 20px;
-  top: 5px;
-  left: 4px;
-  transition: ease-in-out 200ms;
-}
-
-label {
-  display: none;
-}
- 
-input:checked + label {
-  background: #4d5d9f;
-}
- 
-input:checked + label:after {
-  left: calc(100% - 5px);
-  transform: translateX(-100%);
-}
- 
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: ease-in-out 700ms !important;
-  transition-delay: 400ms !important;
-}
-
-#switch {
-	float: right;
-}
-
-/*-------------------------------------------------------------------*/
 html{
   min-height: 100%;
-
 
 }
 body{
   min-height: 100%;
-	background-image: linear-gradient(135deg, #43379e 7%, #4d5d9f 95%);
-	color: #CCCCCC;
-	font-family: "helvetica", sans-serif;
+	background-image: var(--background-image-default);
+	color: var(--text-primary);
+	font-family: var(--font);
 	padding: 5px;
 }
 
-h1, h2, h3, h4{
-	color: #DFDFDF;
+h1 {
+  color: var(--heading-1);
 }
 
-#logo {
+h2 {
+  color: var(--heading-2);
+}
+
+h3 {
+  color: var(--heading-3);
+}
+
+h4 {
+  color: var(--heading-4);
+}
+
+a {
+  color: var(--text-link);
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  color: var(--text-hover);
+}
+
+img, video, iframe {
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 300px;
+  margin:  0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a, .logo2 {
+  vertical-align: center;
+  display: inline;
+  padding-right: 8px;
+  margin: none;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  width: auto;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+select {
+  color: var(--text-link);
+  background: var(--theme-color);
+  padding: 5px;
+  font-family: var(--font);
+  border: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  appearance: none;
+  transition-duration: 1s;
+  cursor: default;
+  text-align: center;
+}
+
+select:hover {
+  color: var(--text-hover);
+  cursor: pointer;
+}
+
+label {
+  color: var(--text-hover);
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+option {
+  border: none;
+}
+
+/* animation for home page swirl */
+.swirl-animation {
+  fill: var(--swirl-color); 
+  width: 100%; 
+  height: 100px; 
+  transform: rotate(180deg);
+  animation-duration: 30s;
+  animation-name: swirl;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-name: swirl;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+}
+
+/* animation for most browsers */
+@keyframes swirl {
+  0% {
+    fill: var(--swirl-color);
+    width: 100%;
+    
+  }
+
+  25% {
+    width: 90%;
+  }
+
+  50% {
+    fill: var(--text-primary);
+    width: 100%;
+    
+  }
+
+  75% {
+    width: 90%;
+  }
+
+  100% {
+    fill: var(--swirl-color);
+    width: 100%;
+    
+  }
+}
+
+/* animation for safari that compensates for colors not working */
+@-webkit-keyframes swirl {
+  0% {
+    width: 100%;
+  }
+
+  25% {
+    width: 90%;
+  }
+
+  50% {
+    width: 100%;
+    
+  }
+
+  75% {
+    width: 90%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.logo {
 	float: right;
 	width: 20px;
 	margin-top: 8px;
 	padding-right: 5px;
 }
 
-#logo2, #logo {
+.logo2, .logo {
   border-radius: 0;
 }
 
@@ -102,38 +248,7 @@ h1, h2, h3, h4{
 }
 
 .image-hover:hover {
-  filter: brightness(50%);
-}
-
-a {
-	color: #DFDFDF;
-	font-weight: bold;
-	text-decoration: none;
-  transition-duration: 0.5s;
-}
-
-a:hover {
-	color: #A3A3A3;
-}
-
-li a:hover {
-  color: #A3A3A3;
-}
-
-p a:hover {
-  color: #A3A3A3;
-}
-
-.hover:hover {
-  color: #A3A3A3;
-}
-
-#resume {
-  transition-duration: 0.5s;
-}
-
-#resume:hover {
-  color: #A3A3A3;
+  opacity: 0.5;
 }
 
 #stripe {
@@ -149,51 +264,18 @@ p a:hover {
   padding-bottom: 5px;
 }
 
-img, video, iframe {
-  border-radius: 10px;
-}
-
-nav ul {
-  	list-style-type: none;
-  	width: 300px;
-  	margin:  0;
-  	padding: 0;
-  	overflow: hidden;
-  	float: left;
-}
-
-nav li a, #logo2 {
-    vertical-align: center;
-    display: inline;
-    padding-right: 8px;
-    margin: none;
-    margin-top: 3px;
-  	padding-bottom: 5px;
-  	width: auto;
-  	text-decoration: none;
-  	font-size: 16px;
-}
-
-nav li {
-  float: left;
-}
-#mail {
+.mail {
 	max-width: 18px;
   border-radius: 0;
 }
 
-#github {
+.github {
   max-width: 20px;
   border-radius: 0;
   margin-bottom: -4px;
 }
 
-#foot {
-	padding: 20px;
-	text-align: center;
-}
-
-#content {
+.content {
 	margin-top: 40px;
   margin-bottom: 80px;
 	border-top: 2px solid;
@@ -203,16 +285,16 @@ nav li {
   margin-top: 100px;
 }
 
-header .current a{
-	color: #A3A3A3;
+.active {
+	color: var(--text-hover);
 }
 
-#brand {
+.brand {
   font-size: 60px;
   padding-top: 40px;
 }
 
-#brand2 {
+.brand2 {
   font-size: 30px;
   padding-bottom: 40px;
 }
@@ -221,11 +303,7 @@ header .current a{
 	clear: both;
 }
 
-.divider {
-	padding: 0px !important;
-}
-
-#headshot{
+.headshot{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -249,7 +327,7 @@ header .current a{
   margin-bottom: 20px;
 }
 
-.blog1, #projects, #resumeSpacing {
+.blog1, .projects, .resumeSpacing {
   padding-left: 10px;
   padding-right: 10px;
   border: 2px solid;
@@ -259,11 +337,11 @@ header .current a{
   margin-bottom: 20px;
 }
 
-#resumeSpacing {
+.resumeSpacing {
   line-height: 2;
 }
 
-#projectsnav {
+.projectsnav {
   padding-left: 10px;
   padding-right: 10px;
   border: 2px solid;
@@ -273,9 +351,9 @@ header .current a{
   margin-bottom: 20px;
 }
 
-#projectnav2 {
-word-spacing: 4px;
-text-align: center;
+.projectnav2 {
+  word-spacing: 4px;
+  text-align: center;
 
 }
 
@@ -287,50 +365,20 @@ text-align: center;
 }
 
 
-#mixer, #dystopia, #undersea {
+.videoEmbed {
   display: block;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 240px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.cottageimages, .hoverbikeimages, .sunglassesimages {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  }
-
-/* Create three equal columns that sits next to each other */
-  #cottage, #hoverbike, #sunglasses {
-    flex: 33.33%;
-    max-width: 33.33%;
-  }
-
-#sunglasses img {
-  vertical-align: middle;
-  max-width: 94%;
-  margin: 4px;
-}
-
-#cottage img {
-  vertical-align: middle;
-  max-width: 94%;
-  margin: 4px;
-}
-
-#hoverbike img {
-  vertical-align: middle;
-  max-width: 94%;
-  margin: 4px;
-}
-#contact {
+.contact {
   display: none;
   transition-duration: 1s;
 }
 
-#contact2 {
+.contact2 {
   text-align: center;
   font-size: 30px;
   border-radius: 10px;
@@ -343,14 +391,14 @@ text-align: center;
   transition-duration: 1s;
 }
 
-#contact:hover {
-  background-color: #DFDFDF;
-  color: #43379e;
+.contact:hover {
+  background-color: var(--theme-color);
+  color: var(--text-hover);
 }
 
-#contact2:hover {
-  background-color: #DFDFDF;
-  color: #43379e;
+.contact2:hover {
+  background-color: var(--theme-color);
+  color: var(--text-hover);
 }
 
 .row {
@@ -379,72 +427,59 @@ text-align: center;
 
 }
 
-#resumeIndent {
-padding-bottom: 20px;
+.theme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.gray-mode {
-	background-image: none;
-  color: #1B1B1B;
-	background-color: #DEDEDE;
-}
-
-.gray-mode a {
-	color: inherit;
-}
-
-.gray-mode h1 {
-	color: inherit;
-}
-
-.gray-mode h2 {
-	color: inherit;
-}
-
-.gray-mode h3 {
-	color: inherit;
-}
-
-.gray-mode h4 {
-	color: inherit;
+.about {
+  padding: 10px;
 }
 
 @media only screen and (min-width: 480px){
-
-  #logo2 {
-    display: none;
+  nav ul {
+    list-style-type: none;
+    width: 350px;
+    margin:  0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
   }
 
-  .blog1, #projects, #resumeSpacing  {
-  padding-left: 20px;
-  padding-right: 20px;
-  }
-
-	nav ul {
-  	list-style-type: none;
-  	width: 350px;
-  	margin:  0;
-  	padding: 0;
-  	overflow: hidden;
-  	float: left;
-	}
-
-nav li a {
+  nav li a {
     display: block;
     padding-right: 13px;
     margin: none;
     margin-top: 3px;
-  	padding-bottom: 5px;
-  	width: auto;
-  	text-decoration: none;
-  	font-size: 18px;
-	}
+    padding-bottom: 5px;
+    width: auto;
+    text-decoration: none;
+    font-size: 18px;
+  }
 
   label {
     display: block;
   } 
 
+  .about {
+    padding: 40px;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .blog1, .projects, .resumeSpacing  {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+  .videoEmbed {
+    height: 300px;
+    width: 90%;
+  }
 }
 
 
@@ -458,123 +493,78 @@ nav li a {
     padding: 40px;
   }
 
-    nav ul {
-      width: auto;
+  nav ul {
+    width: auto;
   }
 
   nav li a {
-      padding-right: 40px;
-      font-size: 20px;
+    padding-right: 40px;
+    font-size: 20px;
   }
 
-  .blog1, #projects, #resumeSpacing {
-  padding-left: 40px;
-  padding-right: 40px;
+  .blog1, .projects, .resumeSpacing {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  #contact2 {
+  .contact2 {
     display: none;
   }
 
-  #contact {
-  text-align: center;
-  font-size: 30px;
-  border-radius: 10px;
-  border: 2px solid;
-  width: 175px;
-  padding: 20px;
-  display: block;
-  float: right;
+  .contact {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 175px;
+    padding: 20px;
+    display: block;
+    float: right;
   }
 
-  #undersea {
-    height: 480px;
+  .videoEmbed  {
+    height: 350px;
   }
 
-  #mixer, #dystopia, #undersea  {
-    max-width: 50%;
-  }
-
-  #projectnav {
-  word-spacing: 40px;
-
-  }
-
-  #resumeIndent {
-  margin-left: 10px;
+  .projectnav {
+    word-spacing: 40px;
   }
 
   #stripe {
-  display: block;
-  text-align: center;
-  margin: auto;
-  max-width: 250px;
-  border-radius: 10px;
-}
-
+    display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 250px;
+    border-radius: 10px;
+  }
 }
 
 /*Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	#headshot {
-	float: left;
-  margin-right: 10px;
-  margin-bottom: 20px;
+	.headshot {
+	  float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
 	}
 
-  #brand2 {
-  font-size: 40px;
+  .brand2 {
+    font-size: 40px;
   }
 
-  .blog1, #projects, #resumeSpacing {
-  padding-left: 60px;
-  padding-right: 60px;
+  .blog1, .projects, .resumeSpacing {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
-  #mixer, #dystopia, #undersea  {
-  max-width: 60%;
-  max-height: 60%;
+  .videoEmbed {
+    height: 480px;
+    width: 80%;
   }
-
 } 
 
-
 @media only screen and (min-width: 1400px) {
-
-  .cottageimages, .hoverbikeimages, .sunglassesimages {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  .videoEmbed {
+    height: 540px;
+    width: 60%
   }
-
-/* Create three equal columns that sits next to each other */
-  #cottage, #hoverbike, #sunglasses {
-    flex: 33.33%;
-    max-width: 33.33%;
-  }
-
-  #cottage img {
-    vertical-align: middle;
-    max-width: 94%;
-    margin: 4px;
-  }
-
-  #hoverbike img {
-    vertical-align: middle;
-    max-width: 94%;
-    margin: 4px;
-  }
-
-  #sunglasses img {
-    vertical-align: middle;
-    max-width: 94%;
-    margin: 4px;   
-  }
-
-  #undersea {
-    height: 720px;
-  }
-
 }
-

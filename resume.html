@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html class="default">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Electronic music composer">
-		<meta name="keywords" content="ambient, downtempo, Electronica, music, synthesizer">
+		<meta name="description" content="eportfolio for developer">
+		<meta name="keywords" content="developer, designer, code, artist, programmer, eportfolio">
 		<meta name="author" content="Scott Jones">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Scott Jones</title>
@@ -14,105 +14,102 @@
 		<link rel="manifest" href="favicon/site.webmanifest">
 		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#43379e">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#43379e">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="scottj.js" defer></script>
+		<script src="scripts/theme-selector.js" defer></script>
+		<script src="scripts/active-nav.js" defer></script>
 	</head>
-	<body>
-		<a id="top"></a>
-		<header>
-			<div>
-				<nav>
-					<img src="SVG/sj.svg" alt="SJ" id="logo" type="image">
-					<input class="container_toggle" type="checkbox" id="switch" name="mode" onclick="colorFunc()"><label for="switch">Toggle</label>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li class="current"><a href="resume">Resume</a></li>
-						<li><a href="projects">Projects</a></li>
-						<li><a href="about">About</a></li>
-						<li><a href="blog">Blog</a></li>
-						<li><img src="SVG/sj.svg" alt="SJ" id="logo2" type="image"></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section id="content">
-			<h1>Resume</h1>
-			<div id="resumeSpacing">
-			<h3>Objective</h3>
-				<p id="resumeIndent">To gain experience working as a web and software developer.<p>
-					<h3>Education</h3>
-					<div id="resumeIndent">
-						<h4>Post-Secondary</h4>
-						<ul>
-						 	<li>Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.</li>
-							<ul>
-						 		<li>September 2020 - Present (Achieved Dean's list for Fall of 2020 | GPA = 8.692)</li>
-						 	</ul>
-						<br>
-						 	<li>Diploma in Business Administration, Camosun College</li>
-							<ul>
-						 		<li>September 2014 - 2017 (Cumulative GPA = 7.684)</li>
-						 	</ul>
-						</ul>
-						<h4>Secondary</h4>
-						<ul>
-						 	<li>Double Dogwood Diploma, Stelly’s Secondary</li>
-						 	<ul>
-						 		<li>2010 - 2014</li>
-						 	</ul>
-						</ul>
-					</div>
-					<h3>Experience</h3>
-					<div id="resumeIndent">
-						<a href="projects" target="_blank"><h4 id="resume">Web Development | Personal Projects</h4></a>
-						<ul>
-						 	<li>Designed and built this e-portfolio site, as well as a website for my music.</li>
-						</ul>
-						<a href="https://dalevinson.com" target="_blank"><h4 id="resume">Junior Bookkeeper &amp; Tax Preparer | DA Levinson &amp; Associates | January 2018 - June 2018</h4></a>
-						<ul>
-						 	<li>Prepared tax returns for clients using industry standard tax software.</li>
-						 	<li>Performed bookkeeping tasks for clients including file organization, recording and posting expenses and revenues, bank reconciliation, payroll, etc.</li>
-						</ul>
-						<a href="https://churchandstatewines.com/victoria/" target="_blank"><h4 id="resume">Line Cook / Prep cook / Dishwasher | Church and State Wines | July 2013 - September 2016, December 2017 - September 2020</h4></a>
-						<ul>
-						 	<li>Worked on line and filled orders within a time constraint.</li>
-						 	<li>Completed various banquet tasks including plating dishes, filling buffet stations, and carving.</li>
-						 	<li>Completed prep for events, banquets, my station on line, as well as other prep tasks for the executive or sous chef.</li>
-						</ul>
-					</div>
-					<h3>Skills</h3>
-					<div id="resumeIndent">
-						<ul>
-						 	<li><h4>Computer</h4></li>
-								<ul>
-									<li><a href="projects#web" id="hover" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL</li>
-									<li><a href="projects#design" id="hover" target="_blank">Graphic Design:</a> Adobe Suite, Apple Procreate</li>
-									<li><a href="projects#web" id="hover" target="_blank">Programming:</a> Python, C#, Javascript</li>
-								</ul>
-							<li><h4>Creative</h4></li>
-								<ul>
-								 	<li><a href="projects#art" id="hover" target="_blank">Digital Art</a></li>
-								 	<li><a href="projects#animation" id="hover" target="_blank">Animation</a></li>
-								 	<li><a href="projects#3d" id="hover" target="_blank">3D Modelling</a></li>
-								 	<li><a href="https://scottjoneselectronica.com" id="hover" target="_blank">Music</a></li>
-								</ul>
-							<li><h4>Organization</h4></li>
-								<ul>
-									<li>Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.</li>
-								 	<li>Responsible for maintaining an organized workstation at Church and State Wines.</li>
-								</ul>
-							<li><h4>Bilingual (English and French)</h4></li>
-						</ul>
-					</div>
-			</div>
-			</section>
-		<footer id="foot">
-			<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" id="mail" alt="Mail"></a></p>
-			<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" id="github" alt="github logo"></a></p>
-			<p><a href="#top">Back to top of page</a></p>
-			<p><a href="/">Return to homepage</a></p>
-			<p>© 2021 Scott Jones</p>
-		</footer>
-	</body>
-</html>
+</head>
+<a id="top"></a>
+<header>
+</a>
+<div>
+	<nav>
+		<img src="SVG/sj.svg" alt="SJ" class="logo" type="image">
+		<ul>
+			<li><a href="index.html" class="nav-text">Home</a></li>
+			<li><a href="resume.html" class="nav-text">Resume</a></li>
+			<li><a href="projects.html" class="nav-text">Projects</a></li>
+			<li><a href="about.html" class="nav-text">About</a></li>
+			<li><a href="blog.html" class="nav-text">Blog</a></li>
+			<li><img src="SVG/sj.svg" alt="SJ" class="logo2" type="image"></li>
+		</ul>
+	</nav>
+</div>
+</header>
+<body>
+<section class="content" markdown="1"><h1 id="resume">Resume</h1>
+<p><div class="resumeSpacing" markdown="1"><h2 id="objective">Objective</h2>
+<p>To gain experience working as a web and software developer.</p>
+<h2 id="education">Education</h2>
+<h3 id="postsecondary">Post-Secondary</h3>
+<ul>
+<li>Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.</li>
+<li>September 2020 - Present (Achieved Dean's list for Fall of 2020 | GPA = 8.692)</li>
+<li>Diploma in Business Administration, Camosun College</li>
+<li>September 2014 - 2017 (Cumulative GPA = 7.684)</li>
+</ul>
+<h3 id="secondary">Secondary</h3>
+<ul>
+<li>Double Dogwood Diploma, Stelly’s Secondary<ul>
+<li>2010 - 2014</li></ul></li>
+</ul>
+<h2 id="experience">Experience</h2>
+<h3 id="codepersonalprojects">Code | Personal Projects</h3>
+<ul>
+<li>Built an SSG using Node.js</li>
+<li>Designed and built multiple websites<ul>
+<li>See <a href="projects.html" target="_blank">Projects Page</a></li></ul></li>
+</ul>
+<h3 id="codeschoolassignment">Code | School Assignment</h3>
+<ul>
+<li>Completed several web based projects using Javascript, React, PHP, and CSS</li>
+<li>Completed several C# based game design projects in Unity</li>
+<li>Completed several database projects using MySQL, Oracle and MongoDB</li>
+</ul>
+<h3 id="juniorbookkeeperamptaxpreparerdalevinsonampassociatesjanuary2018june2018">Junior Bookkeeper &amp; Tax Preparer | DA Levinson &amp; Associates | January 2018 - June 2018</h3>
+<ul>
+<li>Prepared tax returns for clients using industry standard tax software.</li>
+<li>Performed bookkeeping tasks for clients including file organization, recording and posting expenses and revenues, bank reconciliation, payroll, etc.</li>
+</ul>
+<h3 id="linecookprepcookdishwasherchurchandstatewinesjuly2013september2016december2017september2020">Line Cook / Prep cook / Dishwasher | Church and State Wines | July 2013 - September 2016, December 2017 - September 2020</h3>
+<ul>
+<li>Worked on line and filled orders within a time constraint.</li>
+<li>Completed various banquet tasks including plating dishes, filling buffet stations, and carving.</li>
+<li>Completed prep for events, banquets, my station on line, as well as other prep tasks for the executive or sous chef.</li>
+</ul>
+<h2 id="skills">Skills</h2>
+<h3 id="computer">Computer</h3>
+<ul>
+<li><a href="projects.html#web" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL, Markdown, Git, React, PHP</li>
+<li><a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate</li>
+<li><a href="projects#web" target="_blank">Programming:</a> JavaScript, C#, Ruby</li>
+</ul>
+<h3 id="creative">Creative</h3>
+<ul>
+<li><a href="art.html" target="_blank">Digital Art</a></li>
+<li><a href="animation.html" target="_blank">Animation</a></li>
+<li><a href="animation.html#3d" target="_blank">3D Modelling</a></li>
+<li><a href="https://scottjoneselectronica.com" target="_blank">Music</a></li>
+</ul>
+<h3 id="organization">Organization</h3>
+<ul>
+<li>Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.</li>
+<li>Responsible for maintaining an organized workstation at Church and State Wines.</li>
+</ul>
+<h3 id="bilingualenglishandfrench">Bilingual (English and French)</h3></div></p></section>
+</body>
+<footer>
+	<div class="clear"></div>
+	<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" class="mail" alt="Mail"></a></p>
+	<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" class="github" alt="github logo"></a></p>
+	<p>© 2022 Scott Jones</p>
+	<div class="theme">
+	<label>Select Theme:</label>
+	<select id="theme-selector">
+  		<option value="purple">Purple</option>
+  		<option value="monokai">Monokai</option>
+  		<option value="grayscale">Grayscale</option>
+	</select>
+	</div>
+</footer>

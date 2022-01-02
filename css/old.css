@@ -1,0 +1,580 @@
+@media only screen and (max-width: 480px){
+	#logo{
+		display: none;
+	}
+}
+
+/*setup button to toggle grey/colour mode*/
+input[type=checkbox] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+label {
+  margin: 0 auto;
+  display: flex;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 55px;
+  height: 30px;
+  background-color: #373737; 
+}
+ 
+label:after {
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  background: #DFDFDF;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 4px;
+  transition: ease-in-out 200ms;
+}
+
+label {
+  display: none;
+}
+ 
+input:checked + label {
+  background: #4d5d9f;
+}
+ 
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+ 
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: ease-in-out 700ms !important;
+  transition-delay: 400ms !important;
+}
+
+#switch {
+	float: right;
+}
+
+/*-------------------------------------------------------------------*/
+html{
+  min-height: 100%;
+
+
+}
+body{
+  min-height: 100%;
+	background-image: linear-gradient(135deg, #43379e 7%, #4d5d9f 95%);
+	color: #CCCCCC;
+	font-family: "helvetica", sans-serif;
+	padding: 5px;
+}
+
+h1, h2, h3, h4{
+	color: #DFDFDF;
+}
+
+#logo {
+	float: right;
+	width: 20px;
+	margin-top: 8px;
+	padding-right: 5px;
+}
+
+#logo2, #logo {
+  border-radius: 0;
+}
+
+#home-image {
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.image-hover {
+  transition-duration: 0.5s;
+}
+
+.image-hover:hover {
+  filter: brightness(50%);
+}
+
+a {
+	color: #DFDFDF;
+	font-weight: bold;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+	color: #A3A3A3;
+}
+
+li a:hover {
+  color: #A3A3A3;
+}
+
+p a:hover {
+  color: #A3A3A3;
+}
+
+.hover:hover {
+  color: #A3A3A3;
+}
+
+#resume {
+  transition-duration: 0.5s;
+}
+
+#resume:hover {
+  color: #A3A3A3;
+}
+
+#stripe {
+  display: block;
+  text-align: center;
+  margin: auto;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.web {
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+img, video, iframe {
+  border-radius: 10px;
+}
+
+nav ul {
+  	list-style-type: none;
+  	width: 300px;
+  	margin:  0;
+  	padding: 0;
+  	overflow: hidden;
+  	float: left;
+}
+
+nav li a, #logo2 {
+    vertical-align: center;
+    display: inline;
+    padding-right: 8px;
+    margin: none;
+    margin-top: 3px;
+  	padding-bottom: 5px;
+  	width: auto;
+  	text-decoration: none;
+  	font-size: 16px;
+}
+
+nav li {
+  float: left;
+}
+#mail {
+	max-width: 18px;
+  border-radius: 0;
+}
+
+#github {
+  max-width: 20px;
+  border-radius: 0;
+  margin-bottom: -4px;
+}
+
+#foot {
+	padding: 20px;
+	text-align: center;
+}
+
+#content {
+	margin-top: 40px;
+  margin-bottom: 80px;
+	border-top: 2px solid;
+}
+
+#home {
+  margin-top: 100px;
+}
+
+header .current a{
+	color: #A3A3A3;
+}
+
+#brand {
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+#brand2 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+.divider {
+	padding: 0px !important;
+}
+
+#headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#opacity{
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-image {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.blog1, #projects, #resumeSpacing {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#resumeSpacing {
+  line-height: 2;
+}
+
+#projectsnav {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#projectnav2 {
+word-spacing: 4px;
+text-align: center;
+
+}
+
+#pippin{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#mixer, #dystopia, #undersea {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cottageimages, .hoverbikeimages, .sunglassesimages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* Create three equal columns that sits next to each other */
+  #cottage, #hoverbike, #sunglasses {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+
+#sunglasses img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
+
+#cottage img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
+
+#hoverbike img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
+#contact {
+  display: none;
+  transition-duration: 1s;
+}
+
+#contact2 {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 2px solid;
+  width: 175px;
+  padding: 20px;
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  transition-duration: 1s;
+}
+
+#contact:hover {
+  background-color: #DFDFDF;
+  color: #43379e;
+}
+
+#contact2:hover {
+  background-color: #DFDFDF;
+  color: #43379e;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+  vertical-align: middle;
+  max-width: 94%;
+  margin: 4px;
+}
+
+
+#xd{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+}
+
+#resumeIndent {
+padding-bottom: 20px;
+}
+
+
+.gray-mode {
+	background-image: none;
+  color: #1B1B1B;
+	background-color: #DEDEDE;
+}
+
+.gray-mode a {
+	color: inherit;
+}
+
+.gray-mode h1 {
+	color: inherit;
+}
+
+.gray-mode h2 {
+	color: inherit;
+}
+
+.gray-mode h3 {
+	color: inherit;
+}
+
+.gray-mode h4 {
+	color: inherit;
+}
+
+@media only screen and (min-width: 480px){
+
+  #logo2 {
+    display: none;
+  }
+
+  .blog1, #projects, #resumeSpacing  {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+	nav ul {
+  	list-style-type: none;
+  	width: 350px;
+  	margin:  0;
+  	padding: 0;
+  	overflow: hidden;
+  	float: left;
+	}
+
+nav li a {
+    display: block;
+    padding-right: 13px;
+    margin: none;
+    margin-top: 3px;
+  	padding-bottom: 5px;
+  	width: auto;
+  	text-decoration: none;
+  	font-size: 18px;
+	}
+
+  label {
+    display: block;
+  } 
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	* {box-sizing:border-box;
+  }
+
+
+  body {
+    padding: 40px;
+  }
+
+    nav ul {
+      width: auto;
+  }
+
+  nav li a {
+      padding-right: 40px;
+      font-size: 20px;
+  }
+
+  .blog1, #projects, #resumeSpacing {
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+
+  #contact2 {
+    display: none;
+  }
+
+  #contact {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 2px solid;
+  width: 175px;
+  padding: 20px;
+  display: block;
+  float: right;
+  }
+
+  #undersea {
+    height: 480px;
+  }
+
+  #mixer, #dystopia, #undersea  {
+    max-width: 50%;
+  }
+
+  #projectnav {
+  word-spacing: 40px;
+
+  }
+
+  #resumeIndent {
+  margin-left: 10px;
+  }
+
+  #stripe {
+  display: block;
+  text-align: center;
+  margin: auto;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+}
+
+/*Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#headshot {
+	float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+	}
+
+  #brand2 {
+  font-size: 40px;
+  }
+
+  .blog1, #projects, #resumeSpacing {
+  padding-left: 60px;
+  padding-right: 60px;
+  }
+
+  #mixer, #dystopia, #undersea  {
+  max-width: 60%;
+  max-height: 60%;
+  }
+
+} 
+
+
+@media only screen and (min-width: 1400px) {
+
+  .cottageimages, .hoverbikeimages, .sunglassesimages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* Create three equal columns that sits next to each other */
+  #cottage, #hoverbike, #sunglasses {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+
+  #cottage img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;
+  }
+
+  #hoverbike img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;
+  }
+
+  #sunglasses img {
+    vertical-align: middle;
+    max-width: 94%;
+    margin: 4px;   
+  }
+
+  #undersea {
+    height: 720px;
+  }
+
+}
+

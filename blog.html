@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html class="default">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Electronic music composer">
-		<meta name="keywords" content="ambient, downtempo, Electronica, music, synthesizer">
+		<meta name="description" content="eportfolio for developer">
+		<meta name="keywords" content="developer, designer, code, artist, programmer, eportfolio">
 		<meta name="author" content="Scott Jones">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Scott Jones</title>
@@ -12,80 +12,70 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 		<link rel="manifest" href="favicon/site.webmanifest">
-		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#0E0E0E">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#43379e">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#43379e">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="scottj.js" defer></script>
+		<script src="scripts/theme-selector.js" defer></script>
+		<script src="scripts/active-nav.js" defer></script>
 	</head>
-	<body>
-		<a id="top"></a>
-		<header>
-			<div>
-				<nav>
-					<img src="SVG/sj.svg" alt="SJ" id="logo" type="image">
-					<input class="container_toggle" type="checkbox" id="switch" name="mode" onclick="colorFunc()"><label for="switch">Toggle</label>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="resume">Resume</a></li>
-						<li><a href="projects">Projects</a></li>
-						<li><a href="about">About</a></li>
-						<li class="current"><a href="blog">Blog</a></li>
-						<li><img src="SVG/sj.svg" alt="SJ" id="logo2" type="image"></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section id="content">
-			<h1>Blog</h1>
-			<br>
-			<div class="blog1">
-					<h3>March 10, 2021 | VPN and Airdrop Issues</h3>
-					<p>Recently while connected to a VPN on my MacBook, I tried airdropping a procreate file from my iPad and it couldn’t find my computer. I quickly pulled out my iPhone to test if I could airdrop to my computer from my phone. As you might expect, it didn’t work either. I then tried airdropping from my phone to my tablet and was successful. After pondering the connection issue with my computer for a few minutes, it occurred to me that my VPN connection could be causing the issue. I disconnected my computer from the VPN, and just as my hypothesis predicted; airdrop was once again working.</p>
-
-					<p>In hindsight this makes perfect sense as my computer was connected to a different network than my tablet. This presents a slight conundrum when using a VPN to work remotely. You either have to airdrop your files in advance or disconnect from the VPN temporarily to send them.</p>
-
-					<p>As a takeaway from this experience I would advise anyone who frequently uses a VPN and is suddenly having airdrop issues to double check they aren’t currently using their VPN.</p>
-
-				</div>
-				<br>
-				<br>
-				<div class="blog1">
-					<h3>January 15, 2021 | Aggregate Devices – Mac OS</h3>
-					<p>As someone with a passion for music creation I spend a lot of time working with external audio devices and interfaces. In this blog post I am going to explain the process of setting up what Mac OS calls an <em>aggregate device</em>.</p> 
-
-					<p>First off, why do we want to set up an aggregate device? The answer is quite simple. An aggregate device is useful when you have multiple audio interface peripherals attached to your computer at once and you want to use them together. For example, if I have two interfaces that each have 2 inputs and 2 outputs, I can combine them into one interface that has 4 inputs and 4 outputs. This opens up the possibility of using them simultaneously to record audio, or perform other tasks in an application like a DAW.</p> 
-
-					<p>So where do we start? First we need to go to audio midi setup utility. We can get to the audio midi setup utility a few ways. The simplest being a spotlight or Alfred search. The long way is to open finder, click <strong>go</strong> on the top menu bar, then click <strong>utilities</strong>. Once in utilities, select <strong>audio midi setup</strong>. Now that we are in the audio midi setup page we can see a list of our audio devices. Hit the <strong>+</strong> symbol in the bottom left corner of the window to create a new aggregate device. From here, select the audio devices you want to use in this aggregate device. The GUI will display the current inputs and outputs you have selected for this device. If you desire, you can also rename your aggregate device so that it has a more meaningful name.</p>
-					
-					<img src="photos/aggregate1.png" class="blog-image" alt="aggregate device set-up" style= "max-width: 100%">	
-					<p>Now that our aggregate device is created, we can open up our DAW or audio program of choice. For this example I will be using Logic Pro X. In your Daw, go to the audio preferences menu and change the input and output device to your newly created aggregate device. That’s it! You are now ready to use your aggregate device!</p>
-					<img src="photos/aggregate3.png" class="blog-image" alt="logic preferences" style= "max-width: 100%">	
-					<img src="photos/aggregate2.png" class="blog-image" alt="logic preferences" style= "max-width: 100%">	
-				</div>
-				<br>
-				<br>
-				<div class="blog1">
-					<h3>December 19, 2020 | Window Management With Magnet</h3>
-					<p>Often while working on a computer it is necessary to have several windows open at a time. Resizing multiple windows can be a very annoying process while working. A while ago, I came across a great Mac app called <strong>Magnet</strong>. It is available for download on the <em>Mac App Store</em>. Once you install it on your Mac, you can use keyboard commands to resize and snap your various windows into position. While the app costs a couple dollars, I find its functionality indispensable while working on my computer. You can see the various functions and equivalent commands in the screenshot below.</p>
-					<p><strong>Note:</strong> I am not sponsored or affiliated with this app in any way. I simply wanted to share information about what I find to be a useful tool. </p>
-					<img src="photos/magnet.png" class="blog-image" alt="magnet" style= "max-width: 100%">	
-				</div>
-				<br>
-				<br>
-				<div class="blog1">
-					<h3>November 20, 2020 | Layer Opacity in Procreate</h3>
-					<p><strong>Procreate</strong> had an update earlier this fall that changed the location of where you can toggle the opacity of the layers in your project. After spending a fair amount of time stumbling around the app, I discovered the new location of the opacity control slider. The new placement of this control actually makes a lot more sense than where it was before. The opacity slider is now directly attached to each layer. You just need to tap the <em>’N’</em> to access it. See the images below for more details.</p>
-					<img src="photos/opacity.png" class="blog-image" alt="opacity" style= "max-width: 100%">
-				</div>
-		</section>
-		<div class="clear"></div>
-		<footer id="foot">
-			<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" id="mail" alt="Mail"></a></p>
-			<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" id="github" alt="github logo"></a></p>
-			<p><a href="#top">Back to top of page</a></p>
-			<p><a href="/">Return to homepage</a></p>
-			<p>© 2021 Scott Jones</p>
-		</footer>
-	</body>
-</html>
+</head>
+<a id="top"></a>
+<header>
+</a>
+<div>
+	<nav>
+		<img src="SVG/sj.svg" alt="SJ" class="logo" type="image">
+		<ul>
+			<li><a href="index.html" class="nav-text">Home</a></li>
+			<li><a href="resume.html" class="nav-text">Resume</a></li>
+			<li><a href="projects.html" class="nav-text">Projects</a></li>
+			<li><a href="about.html" class="nav-text">About</a></li>
+			<li><a href="blog.html" class="nav-text">Blog</a></li>
+			<li><img src="SVG/sj.svg" alt="SJ" class="logo2" type="image"></li>
+		</ul>
+	</nav>
+</div>
+</header>
+<body>
+<section class="content" markdown="1"><h1 id="blog">Blog</h1>
+<p><div class="blog1" markdown="1"><h2 id="march102021vpnandairdropissues">March 10, 2021 | VPN and Airdrop Issues</h2>
+<p>Recently while connected to a VPN on my MacBook, I tried airdropping a procreate file from my iPad and it couldn’t find my computer. I quickly pulled out my iPhone to test if I could airdrop to my computer from my phone. As you might expect, it didn’t work either. I then tried airdropping from my phone to my tablet and was successful. After pondering the connection issue with my computer for a few minutes, it occurred to me that my VPN connection could be causing the issue. I disconnected my computer from the VPN, and just as my hypothesis predicted; airdrop was once again working.</p>
+<p>In hindsight this makes perfect sense as my computer was connected to a different network than my tablet. This presents a slight conundrum when using a VPN to work remotely. You either have to airdrop your files in advance or disconnect from the VPN temporarily to send them.</p>
+<p>As a takeaway from this experience I would advise anyone who frequently uses a VPN and is suddenly having airdrop issues to double check they aren’t currently using their VPN.</p></div></p>
+<p><br>
+<br></p>
+<p><div class="blog1" markdown="1"><h2 id="january152021aggregatedevicesmacos">January 15, 2021 | Aggregate Devices – Mac OS</h2>
+<p>As someone with a passion for music creation I spend a lot of time working with external audio devices and interfaces. In this blog post I am going to explain the process of setting up what Mac OS calls an <em>aggregate device</em>. </p>
+<p>First off, why do we want to set up an aggregate device? The answer is quite simple. An aggregate device is useful when you have multiple audio interface peripherals attached to your computer at once and you want to use them together. For example, if I have two interfaces that each have 2 inputs and 2 outputs, I can combine them into one interface that has 4 inputs and 4 outputs. This opens up the possibility of using them simultaneously to record audio, or perform other tasks in an application like a DAW. </p>
+<p>So where do we start? First we need to go to audio midi setup utility. We can get to the audio midi setup utility a few ways. The simplest being a spotlight or Alfred search. The long way is to open finder, click <strong>go</strong> on the top menu bar, then click <strong>utilities</strong>. Once in utilities, select <strong>audio midi setup</strong>. Now that we are in the audio midi setup page we can see a list of our audio devices. Hit the <strong>+</strong> symbol in the bottom left corner of the window to create a new aggregate device. From here, select the audio devices you want to use in this aggregate device. The GUI will display the current inputs and outputs you have selected for this device. If you desire, you can also rename your aggregate device so that it has a more meaningful name.</p>
+<p><img src="photos/aggregate1.png" class="blog-image" alt="aggregate device set-up" style= "max-width: 100%"><br />
+Now that our aggregate device is created, we can open up our DAW or audio program of choice. For this example I will be using Logic Pro X. In your Daw, go to the audio preferences menu and change the input and output device to your newly created aggregate device. That’s it! You are now ready to use your aggregate device!</p>
+<img src="photos/aggregate3.png" class="blog-image" alt="logic preferences" style= "max-width: 100%"><br />
+<img src="photos/aggregate2.png" class="blog-image" alt="logic preferences" style= "max-width: 100%">    </p></div></p>
+<p><br>
+<br></p>
+<p><div class="blog1" markdown="1"><h2 id="december192020windowmanagementwithmagnet">December 19, 2020 | Window Management With Magnet</h2>
+<p>Often while working on a computer it is necessary to have several windows open at a time. Resizing multiple windows can be a very annoying process while working. A while ago, I came across a great Mac app called <strong>Magnet</strong>. It is available for download on the <em>Mac App Store</em>. Once you install it on your Mac, you can use keyboard commands to resize and snap your various windows into position. While the app costs a couple dollars, I find its functionality indispensable while working on my computer. You can see the various functions and equivalent commands in the screenshot below.</p>
+<p><strong>Note:</strong> I am not sponsored or affiliated with this app in any way. I simply wanted to share information about what I find to be a useful tool.
+<img src="photos/magnet.png" class="blog-image" alt="magnet" style= "max-width: 100%"></p></div></p>
+<p><br>
+<br></p>
+<p><div class="blog1" markdown="1"><p><strong>Procreate</strong> had an update earlier this fall that changed the location of where you can toggle the opacity of the layers in your project. After spending a fair amount of time stumbling around the app, I discovered the new location of the opacity control slider. The new placement of this control actually makes a lot more sense than where it was before. The opacity slider is now directly attached to each layer. You just need to tap the <em>’N’</em> to access it. See the images below for more details.
+<img src="photos/opacity.png" class="blog-image" alt="opacity" style= "max-width: 100%"></p></div></p></section>
+<div class="clear"></div>
+</body>
+<footer>
+	<div class="clear"></div>
+	<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" class="mail" alt="Mail"></a></p>
+	<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" class="github" alt="github logo"></a></p>
+	<p>© 2022 Scott Jones</p>
+	<div class="theme">
+	<label>Select Theme:</label>
+	<select id="theme-selector">
+  		<option value="purple">Purple</option>
+  		<option value="monokai">Monokai</option>
+  		<option value="grayscale">Grayscale</option>
+	</select>
+	</div>
+</footer>
