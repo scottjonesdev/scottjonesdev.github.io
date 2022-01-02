@@ -16,7 +16,7 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#43379e">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="scripts/theme-selector.js" defer></script>
+		<script src="scripts/theme-selector.js" type="module"></script>
 		<script src="scripts/active-nav.js" defer></script>
 	</head>
 </head>
