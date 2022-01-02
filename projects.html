@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html class="default">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Electronic music composer">
-		<meta name="keywords" content="ambient, downtempo, Electronica, music, synthesizer">
+		<meta name="description" content="eportfolio for developer">
+		<meta name="keywords" content="developer, designer, code, artist, programmer, eportfolio">
 		<meta name="author" content="Scott Jones">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Scott Jones</title>
@@ -14,225 +14,112 @@
 		<link rel="manifest" href="favicon/site.webmanifest">
 		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#43379e">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#43379e">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="scottj.js" defer></script>
+		<script src="scripts/theme-selector.js" defer></script>
+		<script src="scripts/active-nav.js" defer></script>
 	</head>
-	<body>
-		<a id="top"></a>
-		<header>
-			<div>
-				<nav>
-					<img src="SVG/sj.svg" alt="SJ" id="logo" type="image">
-					<input class="container_toggle" type="checkbox" id="switch" name="mode" onclick="colorFunc()"><label for="switch">Toggle</label>
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="resume">Resume</a></li>
-						<li class="current"><a href="projects">Projects</a></li>
-						<li><a href="about">About</a></li>
-						<li><a href="blog">Blog</a></li>
-						<li><img src="SVG/sj.svg" alt="SJ" id="logo2" type="image"></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section id="content">
-			<h1>Projects</h1>
-			<div id="projectsnav">
-				<div id="projectnav2">
-					<a href="#web" class="hover">Web</a>
-					<a href="#design" class="hover">Design</a>
-					<a href="#art" class="hover">Art</a>
-					<a href="#animation" class="hover">Animation</a>
-					<a href="#3d" class="hover">3D-Modelling</a>
-				</div>
-			</div>
-			<div id="projects">
-				<a id="web"></a>
-				<h3>Websites</h3>
-				<div class="web">
-					<a href="https://pantryofplants.ca" target="_blank" id="hover">Pantry of Plants | Recipe Blog [Generated Static Site]</a> 
-					<p>A recipe blog that I designed with some help from my friend <a href="https://nv.delivery/" target="_blank">Nick</a>. This is a generated static site, all the pages are written as Markdown Files, then converted to HTML with a Ruby script. This makes it possible to reuse page elements like headers and footers across all pages and also makes it quick to add new recipes to the website.</p>
-					<a href="https://pantryofplants.ca" target="_blank"><img src="photos/pantryofplants.png" class="image-hover" id="home-image" alt="image of pantry of plants recipe page"></a>
-					<p>Website features:</p>
-					<ul>
-						<li>Generated Static Site using Ruby and Kramdown</li>
-						<li>Orignal Recipes written by me</li>
-						<li>Recipe search functionality using Javascript</li>
-						<li>Orignal Photography</li>
-						<li>Designed in Figma, CSS written from scratch</li>
-					</ul>
-					<p>Check out the Git Repo <a href="https://github.com/scottjonesdev/pantry-of-plants" target="_blank">here</a>.
-					<br>
-				</div>
-				<br>
-				<div class="web">
-					<a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a> 
-					<p>A PHP based shopping cart web application I made as part of a group project in school.</p>
-					<a href="https://primary-keys.herokuapp.com" target="_blank" id="primary-keys" ><img src="photos/home.png" class="image-hover" id="home-image" alt="image of primary keys home page"></a>
-					<p>Website features:</p>
-					<ul>
-						<li>MySQL backend – MySQL Database that stores user accounts and product info.</li>
-						<li>PHP middleware – Connects database to website.</li>
-						<li>JS input validation – Validate user inputed data (for example: sign up page).</li>
-						<li>Secure payment system using Stripe – See credit card info below to test Stripe implementation.</li>
-						<li>Custom CSS for styling</li>
-					</ul>
-					<p>*Note: This is not a real business. To try out the stripe payment system use the following credit card information.</p>
-					<img src="photos/stripe_cc.png" id="stripe" alt="credit card info">
-					<br>
-				</div>
-				<br>
-				<div class="web">
-					<a href="https://scottjoneselectronica.com" target="_blank" id="hover">scottjoneselectronica.com</a> 
-					<p>A website I created for my music.</p>
-				</div>
-				<br>
-				<div class="web">
-					<a href="https://scottjoneselectronica.com/alone" target="_blank" id="hover">Album Release Landing Page</a> 
-					<p>A 'Linktree' style landing page I created for my recent album release.</p>
-				</div>
-				<br>
-				<div class="web">
-					<a href="https://scottjoneselectronica.com/listen" target="_blank" id="hover">Multi-link Landing Page</a> 
-					<p>A 'Linktree' style landing page I created for my music.</p>
-				</div>
-			</div>
-			<div id="projects">
-				<a id="design"></a>
-				<h3>Design / UX</h3>
-				<h4>Pizzeria Giardino</h4>
-				<p>For a school project, I worked with a partner to create a concept for a pizza business. We were tasked with creating a brand, logo, menu, application prototype, and website prototype. While my partner created the website protoype, I created an app prototype in Adobe XD. You can explore my app protoype <a href="https://xd.adobe.com/view/0e4d292c-e08b-4136-a797-15a71b59941c-5b1e/?fullscreen&hints=off" target="_blank" id="hover">here</a>.</p> 
-				<a href="https://xd.adobe.com/view/0e4d292c-e08b-4136-a797-15a71b59941c-5b1e/?fullscreen&hints=off" target="_blank"><img src="art/xdpreview.png" class="image-hover" alt="adobe xd app image" id="xd"></a>
-			</div>
-			<br>
-			<div id="projects">
-				<a id="art"></a>
-				<h3>Digital Art / Graphic Design</h3>
-				<div>
-					<p><h4>Audio Waveforms</h4>Below is a zine I created that focuses on synthetic sound waveforms. I drew the image on page 2 by hand in Procreate, and created the rest of the pages in Adobe Illustrator.</p>
-					<iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=hpag39mzhm" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-				</div>
-				<br>
-				<div>
-					<h4>Apple Orchard | Logo Design</h4>
-					<p>I created the following logo for a school assignment. The prompt was to design a combination logo for an apple orchard. I created the logo using a combination of Procreate and Adobe Illustrator.</p>
-					<img src="art/pippin.png" id="pippin" alt="Pippin Orchard logo">
-				</div>
-				<br>
-				<div>
-					<h4>Digital Sketchbook</h4>
-					<p>I have been keeping a digital sketchbook in Procreate. The images below are some samples of my work.</p>
-					<div class="row"> 
-					  <div class="column">
-					    <img src="art/mush.png" alt="mushrooms">
-					    <img src="art/stainedglass.jpg" alt="stained glass">
-					    <img src="art/canont3i.jpg" alt="canon t3i">
-					    <img src="art/cartooncamera.jpg" alt="cartoon camera">
-					    <img src="art/phoebe_keys.png" alt="dog and instruments">
-					    <img src="art/seaturtle.jpg" alt="sea turtle">
-					  </div>
-					  <div class="column">
-					    <img src="art/controller.png" alt="cartoon game controller">
-					    <img src="art/digitakt.png" alt="cartoon digitakt">
-					    <img src="art/garlicturtle.jpg" alt="garlic turtle">
-					    <img src="art/guitar.JPG" alt="acoustic guitar">
-					    <img src="art/portrait3.JPG" alt="portrait">
-					    <img src="art/waterr3.png" alt="Korg r3">
-					  </div>
-					  <div class="column">
-					    <img src="art/carinterior.png" alt="car interior">
-					    <img src="art/portrait1.png" alt="portrait">
-					    <img src="art/sealion.png" alt="sea lion">
-					    <img src="art/portrait2.png" alt="portrait">
-					    <img src="art/yukaidu.jpg" alt="Yukai Du inspired landscape">
-					    <img src="art/banana.png" alt="banana">
-					  </div>
-					  <div class="column">
-					    <img src="art/cartoonbanana.png" alt="cartoon banana">
-					    <img src="art/bluefeet.png" alt="Blue Footed Boobie">
-					    <img src="art/m50.png" alt="Audio Technica M50">
-					    <img src="art/shield.png" alt="Hylian Shield">
-					    <img src="art/bottle.jpg" alt="hatchwork bottle">
-					  </div> 
-					</div>
-				</div>
-			</div>
-			<div id="projects">
-				<a id="animation"></a>
-				<h3>Animation</h3>
-				<div>
-					<h4>Dystopia</h4>
-					<p>A brief walk cycle animation I created using Procreate, Adobe After Effects, and Final Cut Pro X. This animation features an original piece of music that I wrote and recorded.</p>
-					<video id="dystopia" controls poster="art/dystopiathumb.png" alt="dystopia thumbnail">
-  						<source src="art/dystopia.mp4" type="video/mp4" alt="Dystopia animation">
-  						Your browser does not support video embeds.
-  					</video>
-  				</div>
-				<div>
-					<h4>Undersea</h4>
-					<p>An animation I created using Procreate, Adobe After Effects, and Final Cut Pro X. This animation features an original piece of music that I wrote and recorded.</p>
-					<iframe id="undersea"  width="100%" height="240" src="https://www.youtube.com/embed/PUNmeuqO3mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  				</div>
-  				<br>
-  				<div>
-  					<h4>The Mixer Monster</h4>
-  					<p>A GIF that I animated in Procreate.</p>
-					<img src="art/mixer.gif" id="mixer" alt="mixer gif">
-				</div>
-			</div>
-			<div id="projects">
-				<a id="3d"></a>
-				<h3>3D Modelling</h3>
-				<h4>Cottage</h4>
-				<p>A 3D model of a cottage I created in Maya.</p>
-				<div class="cottageimages">
-					<div id="cottage">
-						<img src="art/cottage_6.jpg" alt="cottage render">
-					</div>
-					<div id="cottage">
-						<img src="art/cottage_2.jpg" alt="cottage render 2">
-					</div>
-					<div id="cottage">
-						<img src="art/cottage_1.jpg" alt="cottage render 3">
-					</div>
-				</div>
-				<br>
-				<h4>Hoverbike</h4>
-				<p>I designed and created a 3D model of a hoverbike in Maya.</p>
-				<div class="hoverbikeimages">
-					<div id="hoverbike">
-						<img src="art/hoverbike_6.jpg" alt="hoverbike render">
-					</div>
-					<div id="hoverbike">
-						<img src="art/hoverbike_2.jpg" alt="hoverbike render 2">
-					</div>
-					<div id="hoverbike">
-						<img src="art/hoverbike_1.jpg" alt="hoverbike render 3">
-					</div>
-				</div>
-				<br>
-				<h4>Sunglasses</h4>
-				<p>I designed and created a 3D model of some sunglasses in Maya.</p>
-				<div class="sunglassesimages">
-					<div id="sunglasses">
-						<img src="art/sunglasses_4.jpg" alt="sunglasses render">
-					</div>
-					<div id="sunglasses">
-						<img src="art/sunglasses_3.jpg" alt="sunglasses render 2">
-					</div>
-					<div id="sunglasses">
-						<img src="art/sunglasses_2.jpg" alt="sunglasses render 3">
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer id="foot">
-			<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" id="mail" alt="Mail"></a></p>
-			<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" id="github" alt="github logo"></a></p>
-			<p><a href="#top">Back to top of page</a></p>
-			<p><a href="/">Return to homepage</a></p>
-			<p>© 2021 Scott Jones</p> 
-		</footer>
-	</body>
-</html>
+</head>
+<a id="top"></a>
+<header>
+</a>
+<div>
+	<nav>
+		<img src="SVG/sj.svg" alt="SJ" class="logo" type="image">
+		<ul>
+			<li><a href="index.html" class="nav-text">Home</a></li>
+			<li><a href="resume.html" class="nav-text">Resume</a></li>
+			<li><a href="projects.html" class="nav-text">Projects</a></li>
+			<li><a href="about.html" class="nav-text">About</a></li>
+			<li><a href="blog.html" class="nav-text">Blog</a></li>
+			<li><img src="SVG/sj.svg" alt="SJ" class="logo2" type="image"></li>
+		</ul>
+	</nav>
+</div>
+</header>
+<body>
+<section class="content" markdown="1"><h1 id="projects">Projects</h1>
+<p><div class="projectsnav">
+    <div class="projectnav2">
+        <a href="#code">Code</a>
+        <a href="#web">Web</a>
+        <a href="#design">Design</a>
+        <a href="art.html">Art</a>
+        <a href="animation.html">Animation</a>
+    </div>
+</div></p>
+<p><div class="projects" markdown="1"><p><a id="code"></a></p>
+<h2 id="code">Code</h2>
+<p><a href="https://github.com/scottjonesdev/Node-showdown-SSG" target="_blank">Node.js based SSG</a> </p>
+<p>A Node.js based Static Site Generator that I built to make web design more convenient. I use it to maintain this website!</p>
+<p>This SSG allows you to write your website pages as MarkDown files and convert them to HTML via Node.js. It also makes it possible to reuse elements across pages, such as headers and footers. Check out the project on <a href="https://github.com/scottjonesdev/Node-showdown-SSG" target="_blank">Github</a>!</p></div></p>
+<p><div class="projects" markdown="1"><p><a id="web"></a></p>
+<h2 id="websites">Websites</h2>
+<div class="web" markdown="1"><p><a href="https://pantryofplants.ca" target="_blank" id="hover">Pantry of Plants | Recipe Blog [Generated Static Site]</a> 
+A recipe blog that I designed with some help from my friend <a href="https://nv.delivery/" target="_blank">Nick</a>. This is a generated static site, all the pages are written as Markdown Files, then converted to HTML with a Ruby script. This makes it possible to reuse page elements like headers and footers across all pages and also makes it quick to add new recipes to the website.</p>
+<p><a href="https://pantryofplants.ca" target="_blank"><img src="photos/pantryofplants.png" class="image-hover" id="home-image" alt="image of pantry of plants recipe page"></a></p>
+<h3 id="websitefeatures">Website features:</h3>
+<ul>
+<li>Generated Static Site using Ruby and Kramdown</li>
+<li>Orignal Recipes written by me</li>
+<li>Recipe search functionality using Javascript</li>
+<li>Orignal Photography</li>
+<li>Designed in Figma, CSS written from scratch</li>
+</ul>
+<p>Check out the Git Repo <a href="https://github.com/scottjonesdev/pantry-of-plants" target="_blank">here</a>.
+<br></p></div>
+<p><br></p>
+<div class="web" markdown="1"><p><a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a> </p>
+<p>A PHP based shopping cart web application I made as part of a group project in school.
+<a href="https://primary-keys.herokuapp.com" target="_blank" id="primary-keys" ><img src="photos/home.png" class="image-hover" id="home-image" alt="image of primary keys home page"></a></p>
+<h3 id="websitefeatures">Website features:</h3>
+<ul>
+<li>MySQL backend – MySQL Database that stores user accounts and product info.</li>
+<li>PHP middleware – Connects database to website.</li>
+<li>JS input validation – Validate user inputed data (for example: sign up page).</li>
+<li>Secure payment system using Stripe – See credit card info below to test Stripe implementation.</li>
+<li>Custom CSS for styling</li>
+</ul>
+<p><strong>Note:</strong> This is not a real business. To try out the stripe payment system use the following credit card information.</p>
+<p><br>
+<img src="photos/stripe_cc.png" id="stripe" alt="credit card info">
+<br></p></div>
+<p><br></p>
+<div class="web" markdown="1"><p><a href="https://scottjoneselectronica.com" target="_blank" id="hover">scottjoneselectronica.com</a> 
+A website I created for my music.</p></div>
+<p><br></p>
+<div class="web" markdown="1"><p><a href="https://scottjoneselectronica.com/alone" target="_blank" id="hover">Album Release Landing Page</a> 
+A 'Linktree' style landing page I created for my recent album release.</p></div>
+<p><br></p>
+<p><a href="https://scottjoneselectronica.com/listen" target="_blank" id="hover">Multi-link Landing Page</a> 
+A 'Linktree' style landing page I created for my music.</p></div></p>
+<p><div class="projects" markdown="1"><p><a id="design"></a></p>
+<h2 id="designux">Design / UX</h2>
+<div class="web" markdown="1"><h3 id="pizzeriagiardino">Pizzeria Giardino</h3>
+<p>For a school project, I worked with a partner to create a concept for a pizza business. We were tasked with creating a brand, logo, menu, application prototype, and website prototype. While my partner created the website protoype, I created an app prototype in Adobe XD. You can explore my app protoype <a href="https://xd.adobe.com/view/0e4d292c-e08b-4136-a797-15a71b59941c-5b1e/?fullscreen&hints=off" target="_blank" id="hover">here</a>.</p>
+<p><a href="https://xd.adobe.com/view/0e4d292c-e08b-4136-a797-15a71b59941c-5b1e/?fullscreen&hints=off" target="_blank"><img src="art/xdpreview.png" class="image-hover" alt="adobe xd app image" id="xd"></a></p></div>
+<p><br></p>
+<h3 id="pantryofplants">Pantry of Plants</h3>
+<p>I made the design for my recipe blog using Figma. You can check it out below!</p>
+<iframe class="videoEmbed" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUNrHVEDqgDtvx1b4jNLsfA%2Fpantry-of-plants%3Fnode-id%3D0%253A1" allowfullscreen></iframe></div></p>
+<p><div class="projects" markdown="1"><p><a id="art"></a></p>
+<h2 id="art">Art</h2>
+<p>Check out my digital art <a href="art.html" target="_blank">here</a>.</p></div></p>
+<p><div class="projects" markdown="1"><p><a id="animation"></a></p>
+<h2 id="animation">Animation</h2>
+<p>View some of my animation <a href="animation.html">here</a>.</p></div></p></section>
+</body>
+<footer>
+	<div class="clear"></div>
+	<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" class="mail" alt="Mail"></a></p>
+	<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" class="github" alt="github logo"></a></p>
+	<p>© 2022 Scott Jones</p>
+	<div class="theme">
+	<label>Select Theme:</label>
+	<select id="theme-selector">
+  		<option value="purple">Purple</option>
+  		<option value="monokai">Monokai</option>
+  		<option value="grayscale">Grayscale</option>
+	</select>
+	</div>
+</footer>

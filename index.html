@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="default">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -14,71 +14,70 @@
 		<link rel="manifest" href="favicon/site.webmanifest">
 		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#43379e">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#43379e">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="scottj.js" defer></script>
+		<script src="scripts/theme-selector.js" defer></script>
+		<script src="scripts/active-nav.js" defer></script>
 	</head>
-	<body>
-		<a id="top"></a>
-		<header>
-		</a>
-		<div>
-			<nav>
-				<img src="SVG/sj.svg" alt="SJ" id="logo" type="image">
-				<input class="container_toggle" type="checkbox" id="switch" name="mode" onclick="colorFunc()"><label for="switch">Toggle</label>
-				<ul>
-					<li class="current"><a href="/">Home</a></li>
-					<li><a href="resume">Resume</a></li>
-					<li><a href="projects">Projects</a></li>
-					<li><a href="about">About</a></li>
-					<li><a href="blog">Blog</a></li>
-					<li><img src="SVG/sj.svg" alt="SJ" id="logo2" type="image"></li>
-				</ul>
-			</nav>
-		</div>
-		</header>
-		<section id="content">
-			<div id="scott">
-				<h1 id="brand">Scott Jones</h1>
-				<a href="mailto:scott@scottj.ca" id="contact">Contact</a>	
-					<h3 id="brand2">Developer | Designer | Digital Artist</h3>
-					<a href="mailto:scott@scottj.ca" id="contact2">Contact</a>
-					<div class="clear"></div> 
-					<div>
-						<h1>
-					  	<span
-					     	class="txt-rotate"
-					     	data-period="2000"
-					     	data-rotate='[ "I design and build websites.", "I write code.", "I create digital art.", "I make music."]'></span>
-						</h1>
-					</div>
-				<div id="swirl" style="overflow: hidden;">
-				  	<svg
-				    preserveAspectRatio="none"
-				    viewBox="0 0 1200 120"
-				    xmlns="http://www.w3.org/2000/svg"
-				    style="fill: #F0F0F0; width: 100%; height: 100px; transform: rotate(180deg);"
-				  	>
-				    <path
-				    d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
-				    opacity=".25"
-				  	/>
-				    <path
-				      d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
-				      opacity=".5"
-				    />
-				    <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
-				  </svg>
-				</div>
-				<div class="clear"></div> 
-			</div>
-		</section>
-		<footer id="foot">
-			<div class="clear"></div>
-			<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" id="mail" alt="Mail"></a></p>
-			<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" id="github" alt="github logo"></a></p>
-			<p>© 2021 Scott Jones</p>
-		</footer>
-		</div>
-	</body>
-</html>
+</head>
+<a id="top"></a>
+<header>
+</a>
+<div>
+	<nav>
+		<img src="SVG/sj.svg" alt="SJ" class="logo" type="image">
+		<ul>
+			<li><a href="index.html" class="nav-text">Home</a></li>
+			<li><a href="resume.html" class="nav-text">Resume</a></li>
+			<li><a href="projects.html" class="nav-text">Projects</a></li>
+			<li><a href="about.html" class="nav-text">About</a></li>
+			<li><a href="blog.html" class="nav-text">Blog</a></li>
+			<li><img src="SVG/sj.svg" alt="SJ" class="logo2" type="image"></li>
+		</ul>
+	</nav>
+</div>
+</header>
+<body>
+<section class="content">
+    <div>
+        <h1 class="brand">Scott Jones</h1>
+        <a href="mailto:scott@scottj.ca" class="contact">Contact</a>    
+            <h2 class="brand2">Developer | Designer | Digital Artist</h2>
+            <a href="mailto:scott@scottj.ca" class="contact2">Contact</a>
+            <div class="clear"></div> 
+        <div id="swirl" style="overflow: hidden;">
+            <svg
+            class="swirl-animation"
+            preserveAspectRatio="none"
+            viewBox="0 0 1200 120"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+            d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+            opacity=".25"
+            />
+            <path
+              d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+              opacity=".5"
+            />
+            <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
+          </svg>
+        </div>
+        <div class="clear"></div> 
+    </div>
+</section>
+</body>
+<footer>
+	<div class="clear"></div>
+	<p>Contact: <a href="mailto:scott@scottj.ca">scott@scottj.ca <img src="photos/mail.svg" class="mail" alt="Mail"></a></p>
+	<p>Github: <a href="https://github.com/scottjonesdev" target="_blank">scottjonesdev <img src="photos/github2.png" class="github" alt="github logo"></a></p>
+	<p>© 2022 Scott Jones</p>
+	<div class="theme">
+	<label>Select Theme:</label>
+	<select id="theme-selector">
+  		<option value="purple">Purple</option>
+  		<option value="monokai">Monokai</option>
+  		<option value="grayscale">Grayscale</option>
+	</select>
+	</div>
+</footer>
