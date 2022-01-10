@@ -31,11 +31,11 @@ This SSG allows you to write your website pages as MarkDown files and convert th
 ## Websites	
 
 <div class="web" markdown="1">
-<a href="https://pantryofplants.ca" target="_blank" id="hover">Pantry of Plants | Recipe Blog [Generated Static Site]</a> 
+<h3><a href="https://pantryofplants.ca" target="_blank" id="hover">Pantry of Plants | Recipe Blog [Generated Static Site]</a></h3>
+
 A recipe blog that I designed with some help from my friend <a href="https://nv.delivery/" target="_blank">Nick</a>. This is a generated static site, all the pages are written as Markdown Files, then converted to HTML with a Ruby script. This makes it possible to reuse page elements like headers and footers across all pages and also makes it quick to add new recipes to the website.
 
 <a href="https://pantryofplants.ca" target="_blank"><img src="photos/pantryofplants.png" class="image-hover" id="home-image" alt="image of pantry of plants recipe page"></a>
-
 ### Website features:		
 - Generated Static Site using Ruby and Kramdown
 - Orignal Recipes written by me
@@ -49,9 +49,10 @@ Check out the Git Repo <a href="https://github.com/scottjonesdev/pantry-of-plant
 <br>
 
 <div class="web" markdown="1">
-<a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a> 
+<h3><a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a></h3>
 
 A PHP based shopping cart web application I made as part of a group project in school.
+
 <a href="https://primary-keys.herokuapp.com" target="_blank" id="primary-keys" ><img src="photos/home.png" class="image-hover" id="home-image" alt="image of primary keys home page"></a>
 ### Website features:		
 - MySQL backend – MySQL Database that stores user accounts and product info.
@@ -69,19 +70,14 @@ A PHP based shopping cart web application I made as part of a group project in s
 <br>
 
 <div class="web" markdown="1">
-<a href="https://scottjoneselectronica.com" target="_blank" id="hover">scottjoneselectronica.com</a> 
+<h3><a href="https://treenotemusic.ca/index.html" target="_blank" id="hover">treenotemusic.ca</a></h3>
+
 A website I created for my music.
-</div>
 
-<br>
-<div class="web" markdown="1">
-<a href="https://scottjoneselectronica.com/alone" target="_blank" id="hover">Album Release Landing Page</a> 
-A 'Linktree' style landing page I created for my recent album release.
-</div>
-<br>
-
-<a href="https://scottjoneselectronica.com/listen" target="_blank" id="hover">Multi-link Landing Page</a> 
-A 'Linktree' style landing page I created for my music.
+<a href="https://treenotemusic.ca/index.html" target="_blank"><img src="photos/treenote.png" class="image-hover" id="home-image" alt="image of treenote home page"></a>
+### Website features:		
+- Generated Static Site using my <a href="projects.html#code">Node based SSG</a>
+- Custom CSS and with 2 selectable themes. Theme preference stored via browser local storage
 </div>
 
 <div class="projects" markdown="1">
