@@ -30,6 +30,7 @@ To gain experience working as a web and software developer.
 
 ### Code | School Assignment
 - Completed several web based projects using Javascript, React, PHP, and CSS
+- Completed severak iOS application projects using Swift and Xcode
 - Completed several C# based game design projects in Unity
 - Completed several database projects using MySQL, Oracle and MongoDB
 
@@ -48,7 +49,7 @@ To gain experience working as a web and software developer.
 ### Computer
 - <a href="projects.html#web" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL, Markdown, Git, React, PHP
 - <a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate
-- <a href="projects#web" target="_blank">Programming:</a> JavaScript, C#, Ruby
+- <a href="projects#web" target="_blank">Programming:</a> Swift, JavaScript, C#
 	
 ### Creative
 - <a href="art.html" target="_blank">Digital Art</a>
