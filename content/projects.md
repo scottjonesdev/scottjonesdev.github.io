@@ -61,11 +61,7 @@ A PHP based shopping cart web application I made as part of a group project in s
 - Secure payment system using Stripe – See credit card info below to test Stripe implementation.
 - Custom CSS for styling
 		
-**Note:** This is not a real business. To try out the stripe payment system use the following credit card information.
-
-<br>
-<img src="photos/stripe_cc.png" id="stripe" alt="credit card info">
-<br>
+**Note:** This is not a real business. 
 </div>
 <br>
 
