@@ -11,9 +11,18 @@ To gain experience working as a web and software developer.
 ## Education
 
 ### Post-Secondary
-- Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
-- September 2020 - Present (Achieved Dean's list for Fall of 2020 | GPA = 8.692)
-- Diploma in Business Administration, Camosun College
+
+#### Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
+- September 2020 - Present (Projected graduation: August 2021) 
+- Achieved Dean's list for Fall of 2020 | **GPA = 8.692**
+- Achieved Dean's list for Winter of 2021 | **GPA = 8.350**
+- Achieved Distinction in Summer 2021 Applied Computing Project (PHP web app)
+- Achieved Dean's list for Fall of 2021 | **GPA = 8.200**
+- Achieved Dean's list for Winter of 2022 | **GPA = 8.647**
+- **Note:** Camosun GPA is measured on a scale of 0-9. More info <a href="https://camosun.ca/registration-records/student-records/camosun-grading-systems" target="_blank">here</a>.
+
+
+#### Diploma in Business Administration, Camosun College
 - September 2014 - 2017 (Cumulative GPA = 7.684)
 	 	
 ### Secondary
