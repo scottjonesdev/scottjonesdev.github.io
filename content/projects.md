@@ -81,6 +81,29 @@ A website I created for my music.
 
 ## Design / UX
 <div class="web" markdown="1">
+### UX Journey Map
+I created the following user experience journey map for the BC transit app.
+- Journey map based on observational user testing.
+- Journey map created in Adobe Illustrator
+
+<a href="photos/journey-map.png" target="_blank">
+<img src="photos/journey-map-small.png" alt="BC transit journey map" class="image-hover" id="home-image">
+</a>
+</div>
+
+<div class="web" markdown="1">
+### Website Design Analysis and Landing Page Redesign
+- Usability Heuristic Evaluation.
+- Information Architecture Principle Evaluation.
+- Mockup created in Adobe XD.
+- Read full analysis <a href="photos/website-design-analysis.pdf" target="_blank">here</a>.
+
+<a href="photos/landing-prototype.png" target="_blank">
+<img src="photos/landing-prototype-small.png" alt="landing page design" class="image-hover" id="home-image">
+</a>
+</div>
+
+<div class="web" markdown="1">
 ### Pizzeria Giardino
 For a school project, I worked with a partner to create a concept for a pizza business. We were tasked with creating a brand, logo, menu, application prototype, and website prototype. While my partner created the website protoype, I created an app prototype in Adobe XD. You can explore my app protoype <a href="https://xd.adobe.com/view/0e4d292c-e08b-4136-a797-15a71b59941c-5b1e/?fullscreen&hints=off" target="_blank" id="hover">here</a>.
 
