@@ -32,6 +32,10 @@ To gain experience working as a web and software developer.
 
 ## Experience
 
+### Capstone Project
+- Software developer at <a href="https://www.divii.ca">Divii</a>.
+- May 2022 - August 2022
+
 ### Code | Personal Projects
 - Built an SSG using Node.js
 - Designed and built multiple websites
@@ -59,18 +63,21 @@ To gain experience working as a web and software developer.
 - <a href="projects.html#web" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL, Markdown, Git, React, PHP
 - <a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate
 - <a href="projects#web" target="_blank">Programming:</a> Swift, JavaScript, C#
+- **Video Editing:** Final Cut Pro X
 	
 ### Creative
 - <a href="art.html" target="_blank">Digital Art</a>
 - <a href="animation.html" target="_blank">Animation</a>
 - <a href="animation.html#3d" target="_blank">3D Modelling</a>
-- <a href="https://scottjoneselectronica.com" target="_blank">Music</a>
+- <a href="https://treenotemusic.ca" target="_blank">Music</a>
+- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> taken by me
 	
 ### Organization
 - Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.
 - Responsible for maintaining an organized workstation at Church and State Wines.
 	
 ### Bilingual (English and French)
+- Double Dogwood Diploma
 
 </div>
 </section>
