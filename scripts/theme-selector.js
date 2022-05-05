@@ -1,10 +1,10 @@
 //Try to read from local storage, otherwise set to purple theme as default
-let currentTheme = localStorage.getItem("mytheme") || "purple";
+let currentTheme = localStorage.getItem("mytheme") || "monokai";
 
 const themeSelector = document.getElementById("theme-selector");
 
 //set the theme
-setTheme("purple", currentTheme);
+setTheme("monokai", currentTheme);
 themeSelector.value = currentTheme;
 
 //add listenter to capture user selecting new theme

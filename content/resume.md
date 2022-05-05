@@ -11,9 +11,18 @@ To gain experience working as a web and software developer.
 ## Education
 
 ### Post-Secondary
-- Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
-- September 2020 - Present (Achieved Dean's list for Fall of 2020 | GPA = 8.692)
-- Diploma in Business Administration, Camosun College
+
+#### Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
+- September 2020 - Present (Projected graduation: August 2021) 
+- Achieved Dean's list for Fall of 2020 | **GPA = 8.692**
+- Achieved Dean's list for Winter of 2021 | **GPA = 8.350**
+- Achieved Distinction in Summer 2021 Applied Computing Project (PHP web app)
+- Achieved Dean's list for Fall of 2021 | **GPA = 8.200**
+- Achieved Dean's list for Winter of 2022 | **GPA = 8.647**
+- **Note:** Camosun GPA is measured on a scale of 0-9. More info <a href="https://camosun.ca/registration-records/student-records/camosun-grading-systems" target="_blank">here</a>.
+
+
+#### Diploma in Business Administration, Camosun College
 - September 2014 - 2017 (Cumulative GPA = 7.684)
 	 	
 ### Secondary
@@ -22,6 +31,10 @@ To gain experience working as a web and software developer.
 	 	
 
 ## Experience
+
+### Capstone Project
+- Software developer at <a href="https://www.divii.ca">Divii</a>.
+- May 2022 - August 2022
 
 ### Code | Personal Projects
 - Built an SSG using Node.js
@@ -50,18 +63,21 @@ To gain experience working as a web and software developer.
 - <a href="projects.html#web" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL, Markdown, Git, React, PHP
 - <a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate
 - <a href="projects#web" target="_blank">Programming:</a> Swift, JavaScript, C#
+- **Video Editing:** Final Cut Pro X
 	
 ### Creative
 - <a href="art.html" target="_blank">Digital Art</a>
 - <a href="animation.html" target="_blank">Animation</a>
 - <a href="animation.html#3d" target="_blank">3D Modelling</a>
-- <a href="https://scottjoneselectronica.com" target="_blank">Music</a>
+- <a href="https://treenotemusic.ca" target="_blank">Music</a>
+- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All the photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> was taken by me.
 	
 ### Organization
 - Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.
 - Responsible for maintaining an organized workstation at Church and State Wines.
 	
 ### Bilingual (English and French)
+- Double Dogwood Diploma
 
 </div>
 </section>
