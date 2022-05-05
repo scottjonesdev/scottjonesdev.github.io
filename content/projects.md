@@ -17,11 +17,30 @@
 
 ## Code
 
-<a href="https://github.com/scottjonesdev/Node-showdown-SSG" target="_blank">Node.js based SSG</a> 
+<div class="web" markdown="1">
+<h3><a href="https://github.com/scottjonesdev/Node-showdown-SSG" target="_blank">Node.js based SSG</a></h3>
 
 A Node.js based Static Site Generator that I built to make web design more convenient. I use it to maintain this website!
 
 This SSG allows you to write your website pages as MarkDown files and convert them to HTML via Node.js. It also makes it possible to reuse elements across pages, such as headers and footers. Check out the project on <a href="https://github.com/scottjonesdev/Node-showdown-SSG" target="_blank">Github</a>!
+</div>
+
+<div class="web" markdown="1">
+### VR Bowling Game
+A Virtual Reality bowling game in my advanced simulation class. See the demo video below. Because this was a school project, the unity file and code are private.
+- Unity
+- Windows Mixed Reality
+- C#
+- Original music
+
+<iframe class="videoEmbed" src="https://www.youtube.com/embed/jiFRF3NqwfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+### iOS / Swift
+My mobile application course at Camosun focused on **iOS development**, in particular **Swift** and **Swift UI**. The following video showcases the functionality of some of the apps I wrote during the course.  
+
+<iframe class="videoEmbed" src="https://www.youtube.com/embed/ih5BBOETfl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 
@@ -65,7 +84,6 @@ A PHP based shopping cart web application I made as part of a group project in s
 </div>
 <br>
 
-<div class="web" markdown="1">
 <h3><a href="https://treenotemusic.ca/index.html" target="_blank" id="hover">treenotemusic.ca</a></h3>
 
 A website I created for my music.
@@ -75,7 +93,6 @@ A website I created for my music.
 - Generated Static Site using my <a href="projects.html#code">Node based SSG</a>
 - Custom CSS and with 2 selectable themes. Theme preference stored via browser local storage
 </div>
-
 <div class="projects" markdown="1">
 <a id="design"></a>
 
