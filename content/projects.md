@@ -38,7 +38,7 @@ A Virtual Reality bowling game in my advanced simulation class. See the demo vid
 </div>
 
 ### iOS / Swift
-My mobile application course at Camosun focused on **iOS development**, in particular **Swift** and **Swift UI**. The following video showcases the functionality of some of the apps I wrote during the course.  
+My mobile application course at Camosun focused on **iOS development**, in particular **Swift** and **Swift UI**. The following video showcases the functionality of some of the apps I wrote during the course.
 
 <iframe class="videoEmbed" src="https://www.youtube.com/embed/ih5BBOETfl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -113,7 +113,7 @@ I created the following user experience journey map for the BC transit app.
 - Usability Heuristic Evaluation.
 - Information Architecture Principle Evaluation.
 - Mockup created in Adobe XD.
-- Read full analysis <a href="photos/website-design-analysis.pdf" target="_blank">here</a>.
+- Read my full analysis <a href="photos/website-design-analysis.pdf" target="_blank">here</a>.
 
 <a href="photos/landing-prototype.png" target="_blank">
 <img src="photos/landing-prototype-small.png" alt="landing page design" class="image-hover" id="home-image">

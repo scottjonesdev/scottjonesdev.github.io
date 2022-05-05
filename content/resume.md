@@ -70,7 +70,7 @@ To gain experience working as a web and software developer.
 - <a href="animation.html" target="_blank">Animation</a>
 - <a href="animation.html#3d" target="_blank">3D Modelling</a>
 - <a href="https://treenotemusic.ca" target="_blank">Music</a>
-- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> taken by me
+- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All the photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> was taken by me.
 	
 ### Organization
 - Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.
