@@ -5,7 +5,7 @@
 <div class="resumeSpacing" markdown="1">
 
 ## Objective
-To gain experience working as a web and software developer.
+To gain experience working as a UX Designer and Software Developer.
 
 
 ## Education
@@ -13,7 +13,7 @@ To gain experience working as a web and software developer.
 ### Post-Secondary
 
 #### Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
-- September 2020 - Present (Projected graduation: August 2021) 
+- September 2020 - Present (Projected graduation: August 2022) 
 - Achieved Dean's list for Fall of 2020 | **GPA = 8.692**
 - Achieved Dean's list for Winter of 2021 | **GPA = 8.350**
 - Achieved Distinction in Summer 2021 Applied Computing Project (PHP web app)
@@ -33,7 +33,7 @@ To gain experience working as a web and software developer.
 ## Experience
 
 ### Capstone Project
-- Software developer at <a href="https://www.divii.ca">Divii</a>.
+- Software developer & UX Designer at <a href="https://www.divii.ca">Divii</a>.
 - May 2022 - August 2022
 
 ### Code | Personal Projects
@@ -43,7 +43,7 @@ To gain experience working as a web and software developer.
 
 ### Code | School Assignment
 - Completed several web based projects using Javascript, React, PHP, and CSS
-- Completed severak iOS application projects using Swift and Xcode
+- Completed several iOS application projects using Swift and Xcode
 - Completed several C# based game design projects in Unity
 - Completed several database projects using MySQL, Oracle and MongoDB
 
