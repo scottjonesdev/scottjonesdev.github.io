@@ -4,10 +4,6 @@
 
 <div class="resumeSpacing" markdown="1">
 
-## Objective
-To gain experience working as a UX Designer and Software Developer.
-
-
 ## Education
 
 ### Post-Secondary
@@ -42,10 +38,10 @@ To gain experience working as a UX Designer and Software Developer.
 	- See <a href="projects.html" target="_blank">Projects Page</a>
 
 ### Code | School Assignment
-- Completed several web based projects using Javascript, React, PHP, and CSS
-- Completed several iOS application projects using Swift and Xcode
-- Completed several C# based game design projects in Unity
-- Completed several database projects using MySQL, Oracle and MongoDB
+- Completed several web based projects using Javascript, React, PHP, and CSS.
+- Completed several iOS application projects using Swift and Xcode.
+- Completed several C# based game design projects in Unity.
+- Completed several database projects using MySQL, Oracle and MongoDB.
 
 ### Junior Bookkeeper &amp; Tax Preparer | DA Levinson &amp; Associates | January 2018 - June 2018
 - Prepared tax returns for clients using industry standard tax software.
@@ -53,15 +49,14 @@ To gain experience working as a UX Designer and Software Developer.
 
 ### Line Cook / Prep cook / Dishwasher | Church and State Wines | July 2013 - September 2016, December 2017 - September 2020
 - Worked on line and filled orders within a time constraint.
-- Completed various banquet tasks including plating dishes, filling buffet stations, and carving.
-- Completed prep for events, banquets, my station on line, as well as other prep tasks for the executive or sous chef.
+- Completed various banquet and prep tasks.
 
 
 ## Skills 
 
 ### Computer
 - <a href="projects.html#web" target="_blank">Web Development:</a> HTML, CSS, Javascript, SQL, Markdown, Git, React, PHP
-- <a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate
+- <a href="projects#design" target="_blank">Graphic Design:</a> Adobe Suite, Procreate, Figma, Affinity Designer
 - <a href="projects#web" target="_blank">Programming:</a> Swift, JavaScript, C#
 - **Video Editing:** Final Cut Pro X
 	
@@ -75,9 +70,15 @@ To gain experience working as a UX Designer and Software Developer.
 ### Organization
 - Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.
 - Responsible for maintaining an organized workstation at Church and State Wines.
+- Acted as team lead on several group projects at school.
 	
 ### Bilingual (English and French)
 - Double Dogwood Diploma
+
+## Awards
+
+### Interactive Media Developer 2nd Year Award
+Awarded to a 2nd year Interactive Media Developer (IMD) student who has shown great improvement throughout their two years of studies in the IMD program. The student recipient will be selected based on the effort demonstrated throughout the full-time program with consideration of the following: class attendance and participation, group project engagement, project completion, and overall perseverance and commitment to completing the IMD program at Camosun College. This is a non-academic based award. It is an award based on the hard work the student has shown to complete this program full-time.
 
 </div>
 </section>
