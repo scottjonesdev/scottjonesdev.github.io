@@ -16,6 +16,7 @@
 - Achieved Dean's list for Fall of 2021 | **GPA = 8.200**
 - Achieved Dean's list for Winter of 2022 | **GPA = 8.647**
 - **Note:** Camosun GPA is measured on a scale of 0-9. More info <a href="https://camosun.ca/registration-records/student-records/camosun-grading-systems" target="_blank">here</a>.
+- Awarded the <a href="https://camosun.ca/news/school-trades-technology-2022-awards#cs" target="_blank"> Interactive Media Developer 2nd Year Award</a> on June 8th, 2022.
 
 
 #### Diploma in Business Administration, Camosun College
@@ -77,8 +78,10 @@
 
 ## Awards
 
-### Interactive Media Developer 2nd Year Award
-Awarded to a 2nd year Interactive Media Developer (IMD) student who has shown great improvement throughout their two years of studies in the IMD program. The student recipient will be selected based on the effort demonstrated throughout the full-time program with consideration of the following: class attendance and participation, group project engagement, project completion, and overall perseverance and commitment to completing the IMD program at Camosun College. This is a non-academic based award. It is an award based on the hard work the student has shown to complete this program full-time.
+### <a href="https://camosun.ca/news/school-trades-technology-2022-awards#cs" target="_blank"> Interactive Media Developer 2nd Year Award</a>
 
+To provide an award to a year two Interactive Media Developer (IMD) student who has shown great improvement throughout their second year of studies in the IMD program. The student recipient will be selected based on the effort demonstrated throughout the full-time program with consideration of the following: class attendance and participation, group project engagement, project completion, and overall perseverance and commitment to completing the IMD program at Camosun College. This is a non-academic-based award. It is an award based on the hard work the student has shown to complete this program full-time.
+
+Throughout the Interactive Media Developer Technology program, Scott maintained a constant level of academic excellence in every course, resulting in an exceptional GPA. He is highly adaptable, and over the course of the last two years, he displayed great teamwork and leadership skills. With his hard work and great attitude, he will go far.
 </div>
 </section>
