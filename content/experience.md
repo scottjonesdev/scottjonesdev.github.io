@@ -8,18 +8,22 @@
 
 ### Post-Secondary
 
-#### Currently enrolled in the <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Developer</a> program at Camosun College.
-- September 2020 - Present (Projected graduation: August 2022) 
+#### Diploma in <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Development</a>, Camosun College
+- September 2020 - Present
 - Achieved Dean's list for every semester of program
-- Awarded the <a href="https://camosun.ca/news/school-trades-technology-2022-awards#cs" target="_blank"> Interactive Media Developer 2nd Year Award</a> on June 8th, 2022.
+- Awarded the <a href="https://camosun.ca/news/school-trades-technology-2022-awards#cs" target="_blank"> Interactive Media Developer 2nd Year Award</a> on June 8th, 2022
 
 #### Diploma in Business Administration, Camosun College
-- September 2014 - 2017 (Cumulative GPA = 7.684)	 	
+- September 2014 - 2017 	
 
 ## Experience
 
-### Capstone Project
-- Software developer & UX Designer at <a href="https://www.divii.ca">Divii</a>.
+### Communications Specialist (Co-op)
+- Graphic designer / web administrator at Ministry of Health
+- September 2022 - Present
+
+### Front-end Developer /  UX Designer (Capstone Project)
+- Software Developer & UX Designer at <a href="https://www.divii.ca">Divii</a>
 - May 2022 - August 2022
 
 ### Code | Personal Projects
@@ -28,15 +32,15 @@
 	- See <a href="projects.html" target="_blank">Projects Page</a>
 
 ### Code | School Assignment
-- Completed several programming assignments using a variety of technologies.
+- Completed several programming assignments using a variety of technologies
 
-### Junior Bookkeeper &amp; Tax Preparer | DA Levinson &amp; Associates | January 2018 - June 2018
-- Prepared tax returns for clients using industry standard tax software.
-- Performed bookkeeping tasks for clients including file organization, recording and posting expenses and revenues, bank reconciliation, payroll, etc.
+### Junior Bookkeeper & Tax Preparer
+- Junior Bookkeeper & tax preparer at DA Levinson & Associates
+- January 2018 - June 2018
 
-### Line Cook / Prep cook / Dishwasher | Church and State Wines | July 2013 - September 2016, December 2017 - September 2020
-- Worked on line and filled orders within a time constraint.
-- Completed various banquet and prep tasks.
+### Line Cook / Prep cook
+- Line cook / prep cook at Church and State Wines
+- July 2013 - September 2016, December 2017 - September 2020
 
 ## Skills 
 
@@ -51,13 +55,13 @@
 - <a href="animation.html" target="_blank">Animation</a>
 - <a href="animation.html#3d" target="_blank">3D Modelling</a>
 - <a href="https://treenotemusic.ca" target="_blank">Music</a>
-- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All the photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> was taken by me.
+- <a href="https://pantryofplants.ca" target="_blank">Photography:</a> All the photography on <a href="https://pantryofplants.ca" target="_blank">pantryofplants.ca</a> was taken by me
 	
 ### Organization
-- Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates.
-- Responsible for maintaining an organized workstation at Church and State Wines.
-- Acted as team lead on several group projects at school.
-- Experienced with Agile development process.
+- Organized bookkeeping files as well as tax return files at DA Levinson &amp; Associates
+- Responsible for maintaining an organized workstation at Church and State Wines
+- Acted as team lead on several group projects at school
+- Experienced with Agile development process
 	
 ### Bilingual (English and French)
 - Double Dogwood Diploma

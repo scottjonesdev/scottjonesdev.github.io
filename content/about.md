@@ -1,7 +1,7 @@
 <section class="content" markdown="1">
 
 # About
-<img src="photos/headshotcropped.jpg" class="headshot" alt="Headshot" style="max-width: 100%">
+<img src="photos/headshot2.jpg" class="headshot" alt="Headshot" style="max-width: 100%">
 <div class="about" markdown="1">
 **Hello**, my name is **Scott Jones**, and I am an aspiring developer based out of Victoria, British Columbia, Canada. I bought my first computer so that I could record music and have since developed an interest in how computer programs and websites function. During the Covid-19 pandemic I used my time off work to start exploring programming and have since pivoted my career path to the technology industry. 
 
