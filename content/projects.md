@@ -68,19 +68,17 @@ Check out the Git Repo <a href="https://github.com/scottjonesdev/pantry-of-plant
 <br>
 
 <div class="web" markdown="1">
-<h3><a href="https://primary-keys.herokuapp.com" target="_blank" id="hover">Primary Keys | Shopping Cart Web Application</a></h3>
+<h3>Primary Keys | Shopping Cart Web Application</h3>
 
 A PHP based shopping cart web application I made as part of a group project in school.
 
-<a href="https://primary-keys.herokuapp.com" target="_blank" id="primary-keys" ><img src="photos/home.png" class="image-hover" id="home-image" alt="image of primary keys home page"></a>
+<img src="photos/home.png" id="home-image" alt="image of primary keys home page"></a>
 ### Website features:		
 - MySQL backend – MySQL Database that stores user accounts and product info.
 - PHP middleware – Connects database to website.
 - JS input validation – Validate user inputed data (for example: sign up page).
-- Secure payment system using Stripe – See credit card info below to test Stripe implementation.
+- Secure payment system using Stripe
 - Custom CSS for styling
-		
-**Note:** This is not a real business. 
 </div>
 <br>
 

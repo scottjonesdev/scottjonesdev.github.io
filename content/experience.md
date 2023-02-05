@@ -9,7 +9,7 @@
 ### Post-Secondary
 
 #### Diploma in <a href="https://camosun.ca/programs-courses/find-program/interactive-media-developer-technologist-diploma" target="_blank" id="resume">Interactive Media Development</a>, Camosun College
-- September 2020 - Present
+- September 2020 - December 2022
 - Achieved Dean's list for every semester of program
 - Awarded the <a href="https://camosun.ca/news/school-trades-technology-2022-awards#cs" target="_blank"> Interactive Media Developer 2nd Year Award</a> on June 8th, 2022
 
@@ -18,9 +18,15 @@
 
 ## Experience
 
+### Technical Writer
+- Graphic designer / web administrator at <a href="https://www2.gov.bc.ca/gov/content?id=81DB166CB943452DA726FC5F028F2E34">Ministry of Health</a>
+- Adobe suite, Microsoft office suite, CMS Lite
+- December 2022 - Present
+
 ### Communications Specialist (Co-op)
-- Graphic designer / web administrator at Ministry of Health
-- September 2022 - Present
+- Graphic designer / web administrator at <a href="https://www2.gov.bc.ca/gov/content?id=81DB166CB943452DA726FC5F028F2E34">Ministry of Health</a>
+- Adobe suite, Microsoft office suite, CMS Lite
+- September 2022 - December 2022
 
 ### Front-end Developer /  UX Designer (Capstone Project)
 - Software Developer & UX Designer at <a href="https://www.divii.ca">Divii</a>
